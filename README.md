@@ -8,6 +8,27 @@ Full Stack Developer building SaaS products, AI-powered automation, and cloud-ba
 
 I specialize in **AI-Driven Engineering, Cognitive Agents, and Developer Tooling**. My core expertise lies in designing scalable full-stack applications that seamlessly connect modern LLM reasoning with resilient backend workflows. Whether crafting high-throughput messaging automation or enterprise reservation engines, I focus on code maintainability, clean type boundaries, and high development velocity.
 
+## Unified Multi-Cloud & Cognitive AI Architecture
+
+```mermaid
+graph TD
+    Client["User Viewports (Next.js 15 / React 19 UI)"] -->|HTTPS / App Router| Gateway["Cognitive & API Gateway (`q1-digital` / `reservas`)"]
+    
+    subgraph "SaaS & Domain Microservices (TypeScript)"
+        Gateway -->|Concurrency Locking (EXCLUDE USING GIST)| Booking["Reservas Engine (`reservas`)"]
+        Gateway -->|Developer Graph Queries| Hub["Git Connect Hub (`git-connect-hub`)"]
+        Gateway -->|Applicant Tracking & Multi-Provider ATS| Jobs["Q1 Jobs Platform (`q1jobs`)"]
+    end
+    
+    subgraph "Autonomous AI & Messaging Engine (Node.js / Python)"
+        WWeb["WhatsApp Web Sockets (`botzap`)"] -->|Intercept Message| AI["Intent Router & Groq LLM Endpoint"]
+        AI <-->|Dynamic Prompt Injection| Cognitive["Cognitive Agent Layer (`q1-digital`)"]
+    end
+    
+    Booking <-->|Transactional ORM| DB[(PostgreSQL / Supabase Connection Pool)]
+    Hub <-->|GraphQL / REST| GitHubAPI[GitHub Platform Ecosystem]
+```
+
 ## What I build
 
 - **SaaS platforms & Web Applications:** High-conversion, modern user interfaces built with TypeScript and Next.js.
