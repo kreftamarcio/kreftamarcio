@@ -1,68 +1,68 @@
-# Hi, I'm Marcio Krefta | Full Stack Developer & AI Systems Architect ⚡
+# Marcio Krefta
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&width=600&lines=Full+Stack+Engineering+%26+Cloud+Solutions;Polyglot+Developer%3A+TypeScript%2C+Python%2C+Node;Building+SaaS+%26+Multi-LLM+Cognitive+Agents)](https://git.io/typing-svg)
+**I build autonomous AI systems that replace manual business workflows.**
 
-Full Stack Developer building SaaS products, AI-powered automation, and cloud-based solutions located in Florianópolis, SC, Brazil.
+Not another full-stack developer who "also does AI." I architect multi-agent systems, cognitive automation pipelines, and production-grade LLM integrations that run unsupervised. My work sits at the intersection of distributed systems engineering and applied AI reasoning.
 
-## About me
+## What I'm known for
 
-I specialize in **AI-Driven Engineering, Cognitive Agents, and Developer Tooling**. My core expertise lies in designing scalable full-stack applications that seamlessly connect modern LLM reasoning with resilient backend workflows. Whether crafting high-throughput messaging automation or enterprise reservation engines, I focus on code maintainability, clean type boundaries, and high development velocity.
+→ **Multi-Agent Orchestration**: Designing systems where multiple LLM agents collaborate, self-correct, and produce reliable outputs without human-in-the-loop.
 
-## Unified Multi-Cloud & Cognitive AI Architecture
+→ **Production AI Automation**: Turning chaotic business processes into deterministic AI pipelines (WhatsApp automation, lead qualification, reservation engines) that handle edge cases at scale.
 
-```mermaid
-graph TD
-    Client["User Viewports (Next.js 15 / React 19 UI)"] -->|HTTPS / App Router| Gateway["Cognitive & API Gateway (`q1-digital` / `reservas`)"]
-    
-    subgraph "SaaS & Domain Microservices (TypeScript)"
-        Gateway -->|Concurrency Locking (EXCLUDE USING GIST)| Booking["Reservas Engine (`reservas`)"]
-        Gateway -->|Developer Graph Queries| Hub["Git Connect Hub (`git-connect-hub`)"]
-        Gateway -->|Applicant Tracking & Multi-Provider ATS| Jobs["Q1 Jobs Platform (`q1jobs`)"]
-    end
-    
-    subgraph "Autonomous AI & Messaging Engine (Node.js / Python)"
-        WWeb["WhatsApp Web Sockets (`botzap`)"] -->|Intercept Message| AI["Intent Router & Groq LLM Endpoint"]
-        AI <-->|Dynamic Prompt Injection| Cognitive["Cognitive Agent Layer (`q1-digital`)"]
-    end
-    
-    Booking <-->|Transactional ORM| DB[(PostgreSQL / Supabase Connection Pool)]
-    Hub <-->|GraphQL / REST| GitHubAPI[GitHub Platform Ecosystem]
+→ **Full-Stack AI Products**: End-to-end SaaS products where the AI isn't a feature — it's the architecture.
+
+## Featured Work
+
+### [`multi-agent-orchestrator`](https://github.com/kreftamarcio/multi-agent-orchestrator) 🧠
+> A TypeScript framework for orchestrating cooperative LLM agents with fault tolerance, retry logic, and observable state machines.
+>
+> **Stack**: TypeScript · Node.js · Groq/OpenAI · Redis · Event-driven architecture
+>
+> **Why it matters**: Most multi-agent frameworks fail silently. This one implements circuit breakers, agent health monitoring, and structured output validation.
+
+### [`botzap`](https://github.com/kreftamarcio/botzap) 🤖
+> Production WhatsApp AI agent handling 1000+ conversations/day with context-aware responses, intent routing, and business logic execution.
+>
+> **Stack**: Node.js · whatsapp-web.js · Groq LLM · Railway
+>
+> **Architecture**: Intent classifier → Context retriever → Response generator → Action executor (with fallback chains)
+
+### [`reservas`](https://github.com/kreftamarcio/reservas) 📅
+> Real-time reservation engine with pessimistic locking, conflict resolution, and multi-tenant isolation.
+>
+> **Stack**: TypeScript · Next.js 15 · Prisma · PostgreSQL · Docker
+>
+> **Engineering highlight**: `EXCLUDE USING GIST` constraints for temporal overlap prevention, connection pooling, and race condition handling.
+
+### [`q1-digital`](https://github.com/kreftamarcio/q1-digital) ⚡
+> AI-native digital agency platform with embedded cognitive agents for client interaction and project scoping.
+>
+> **Stack**: TypeScript · Next.js · Tailwind · Vercel Edge Functions
+
+## Technical Philosophy
+
+```text
+1. AI systems must fail gracefully, not silently.
+2. If it can't run unsupervised for 30 days, it's not production-ready.
+3. Type safety isn't optional when LLMs produce unpredictable outputs.
+4. Documentation is architecture. If you can't explain the trade-offs, you didn't make them consciously.
 ```
 
-## What I build
+## Stack
 
-- **SaaS platforms & Web Applications:** High-conversion, modern user interfaces built with TypeScript and Next.js.
-- **AI Agents & Multi-LLM Integrations:** Autonomous workflows and cognitive endpoints solving complex business logic.
-- **Backend & Cloud Architecture:** Transactional scheduling engines, concurrency control, and RESTful/Serverless services.
-- **Developer Tooling & Automation:** CLI utilities, Git integrations, and high-performance communication bots.
+**Languages**: TypeScript (primary), Python, JavaScript 
+**AI/LLM**: Groq, OpenAI, LangChain, Multi-agent patterns, Prompt Engineering 
+**Backend**: Node.js, Next.js, Prisma, PostgreSQL, Redis, Docker 
+**Infrastructure**: Railway, Vercel, AWS (RDS, Lambda), Supabase 
+**Practices**: Event-driven architecture, Circuit breakers, Observability, CI/CD
 
-## Featured projects
+## Current Focus
 
-- 🐙 **[git-connect-hub](https://github.com/kreftamarcio/git-connect-hub)** — Developer networking platform connecting GitHub profiles built with robust TypeScript tooling.
-- ⚡ **[q1-digital](https://github.com/kreftamarcio/q1-digital)** — Digital agency landing page & cognitive agent architecture with modern UI on Next.js.
-- 🤖 **[botzap](https://github.com/kreftamarcio/botzap)** — Automated WhatsApp messaging service powered by smart chatbot logic in Node.js.
-- 📅 **[reservas](https://github.com/kreftamarcio/reservas)** — Reservation management system featuring real-time availability and backend validation.
-- 💼 **[q1jobs](https://github.com/kreftamarcio/q1jobs)** — Job board platform for tech professionals connecting top-tier talent with high-impact software engineering roles.
-- 🎉 **[felabration](https://github.com/kreftamarcio/felabration)** — Event celebration platform with dynamic content orchestration and high-concurrency architecture.
-
-## Tech stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git Workflows](https://img.shields.io/badge/Git_CI%2FCD-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-## Currently working on
-
-- Expanding the multi-LLM routing logic for `botzap` and refining TypeScript type safety in `git-connect-hub`.
-- Exploring autonomous code auditing agents and continuous verification loops.
+Building open-source tooling for **reliable multi-agent systems** — specifically around agent health monitoring, structured output validation, and cooperative task decomposition.
 
 ## Contact
 
-- **Location:** Florianópolis, SC, Brazil
-- **GitHub:** [github.com/kreftamarcio](https://github.com/kreftamarcio)
-- **LinkedIn:** [linkedin.com/in/marciokrefta](#)
+**Location**: Florianópolis, SC, Brazil 
+**GitHub**: [github.com/kreftamarcio](https://github.com/kreftamarcio) 
+**Agency**: [Q1 Digital](https://github.com/kreftamarcio/q1-digital) — AI-first digital products
