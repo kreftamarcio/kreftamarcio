@@ -1,71 +1,104 @@
 # Marcio Krefta
 
-**I build autonomous AI systems that replace manual business workflows.**
+```
+⚠️ Currently evaluating 2 offers. Open to exceptional opportunities only.
+   Specialization: Loop Engineering · Multi-Agent Systems · Prompt Infrastructure
+```
 
-Not another full-stack developer who "also does AI." I architect multi-agent systems, prompt engineering infrastructure, and production-grade LLM integrations that run unsupervised. My work sits at the intersection of distributed systems engineering and applied AI reasoning.
+**I design self-correcting AI systems that improve themselves without human intervention.**
 
-## What I'm known for
+Most AI engineers build pipelines that run once. I build **loops**: systems that evaluate their own output, detect degradation, retry with alternative strategies, and converge on correct answers autonomously. This is Loop Engineering: the discipline of making AI systems that get better every iteration without touching the code.
 
-→ **Multi-Agent Orchestration**: Designing systems where multiple LLM agents collaborate, self-correct, and produce reliable outputs without human-in-the-loop.
+## The Loop Engineering Paradigm
 
-→ **Prompt Engineering as a Discipline**: Building tooling that treats prompts as first-class engineering artifacts: versioned, tested, regression-detected, and optimized systematically.
+```
+┌─────────────────────────────────────────────────┐
+│              THE CONVERGENCE LOOP                    │
+│                                                     │
+│   Execute ──▶ Evaluate ──▶ Detect Failure            │
+│      ▲                           │                    │
+│      │                           ▼                    │
+│   Improve ◀── Adapt Strategy ◀── Classify Root Cause  │
+│                                                     │
+│   Exit condition: quality threshold met              │
+│   Safety: max iterations + circuit breaker           │
+└─────────────────────────────────────────────────┘
+```
 
-→ **Production AI Automation**: Turning chaotic business processes into deterministic AI pipelines that handle edge cases at scale.
+Traditional AI: `input → model → output` (hope for the best)
+Loop Engineering: `input → model → evaluate → not good enough? → retry with adaptation → converge`
 
-## Featured Work
+## Where I apply this
+
+→ **Multi-Agent Orchestration**: Agents that detect their own failures, trip circuit breakers, and route to fallback strategies automatically.
+
+→ **Prompt Evaluation Loops**: Prompts that are continuously tested, regression-detected, and auto-optimized through evaluation pipelines.
+
+→ **Self-Healing Production Systems**: WhatsApp bots that reconnect, re-authenticate, filter stale messages, and maintain conversation state across crashes.
+
+## Proof of Work
 
 ### [`multi-agent-orchestrator`](https://github.com/kreftamarcio/multi-agent-orchestrator) 🧠
-> TypeScript framework for orchestrating cooperative LLM agents with fault tolerance, circuit breakers, and observable state machines.
+> Framework where agents self-correct through convergence loops.
 >
-> **Highlights**: 4 execution strategies (sequential, parallel, DAG, consensus) · 3 provider adapters · Circuit breakers · Zod schema validation · Full observability (traces, metrics, events)
+> Circuit breakers detect failures → Retry with backoff → Fallback to alternative provider → Validate output against schema → Only then pass downstream.
 >
-> **Stack**: TypeScript · Node.js · Groq/OpenAI/Anthropic · Redis · Vitest
+> **3500+ lines of TypeScript** · 4 execution strategies · 3 LLM providers · Full observability · 35+ files
 
 ### [`prompt-forge`](https://github.com/kreftamarcio/prompt-forge) 🔥
-> Systematic prompt engineering toolkit. Version prompts like code, evaluate with statistical rigor, detect regressions before they reach users.
+> The evaluation loop for prompts: version → test → detect regression → optimize → redeploy.
 >
-> **Highlights**: Prompt versioning · Evaluation pipelines with assertions · Regression detection · Technique library (CoT, Few-Shot, Self-Consistency) · A/B testing
+> Bayesian A/B testing · Self-Consistency (multi-path voting) · Statistical significance (Wilson intervals, Cohen's d) · Token compression with quality preservation
 >
-> **Stack**: TypeScript · Zod · Statistical analysis
+> **2800+ lines** · 5 techniques · Research-backed methodology · Power analysis
 
 ### [`botzap`](https://github.com/kreftamarcio/botzap) 🤖
-> Production WhatsApp AI agent handling conversations 24/7 with multi-modal input (text, audio, images), conversation memory, and autonomous escalation.
+> Self-healing conversational agent: crashes → auto-reconnect → filter stale → resume.
 >
-> **Architecture**: Hybrid routing (keyword flows + LLM) · Whisper transcription · TTS · Silence manager for human handoff
->
-> **Stack**: Node.js · whatsapp-web.js · Groq LLM · Railway
+> Running in production 24/7. Hybrid routing (deterministic + LLM) · Audio transcription · Conversation memory · Human handoff detection
 
 ### [`reservas`](https://github.com/kreftamarcio/reservas) 📅
-> Real-time reservation engine with database-level double-booking prevention using PostgreSQL EXCLUDE USING GIST constraints.
+> Concurrency loop solved at the database layer: attempt → constraint check → conflict? → reject atomically.
 >
-> **Engineering highlight**: TOCTOU race condition solved at storage layer · Dual caching strategy · Prisma + strict TypeScript
->
-> **Stack**: TypeScript · Next.js 16 · PostgreSQL · Docker
+> PostgreSQL EXCLUDE USING GIST makes race conditions physically impossible. No application-level retry needed.
+
+## What makes Loop Engineering different
+
+| Traditional AI Engineering | Loop Engineering |
+|---|---|
+| Build pipeline, deploy, pray | Build loop, define exit criteria, guarantee convergence |
+| Failures are bugs to fix | Failures are expected states the system handles |
+| Quality checked by humans | Quality enforced by automated evaluation gates |
+| One model, one attempt | Multiple strategies, adaptive selection |
+| "Works on my machine" | Works in production for 30+ days unsupervised |
 
 ## Technical Philosophy
 
 ```text
-1. AI systems must fail gracefully, not silently.
-2. Prompts are engineering artifacts. Version them. Test them. Measure them.
-3. If it can't run unsupervised for 30 days, it's not production-ready.
-4. Type safety isn't optional when LLMs produce unpredictable outputs.
-5. Documentation is architecture. Trade-offs > descriptions.
+1. Every AI output must pass through an evaluation gate before reaching users.
+2. Systems that can't self-correct aren't production-ready.
+3. Convergence > single-shot accuracy. A system that retries intelligently
+   beats a system that's 5% more accurate on the first try.
+4. Prompts are code. They get versioned, tested, and regression-detected.
+5. If the loop doesn't have an exit condition, it's not engineering, it's a while(true).
 ```
 
 ## Stack
 
-**Languages**: TypeScript (primary), Python, JavaScript
-**AI/LLM**: Groq, OpenAI, Anthropic, Multi-agent patterns, Prompt Engineering
-**Backend**: Node.js, Next.js, Prisma, PostgreSQL, Redis, Docker
-**Infrastructure**: Railway, Vercel, AWS (RDS, Lambda), Supabase
-**Practices**: Event-driven architecture, Circuit breakers, Observability, CI/CD
+**Core**: TypeScript (primary), Python, Node.js
+**AI/LLM**: Groq, OpenAI, Anthropic, Multi-agent orchestration, Prompt evaluation
+**Loop Primitives**: Circuit breakers, Retry with backoff, Schema validation gates, Convergence criteria, Self-consistency voting
+**Infrastructure**: Railway, Vercel, AWS, Docker, PostgreSQL, Redis
 
-## Current Focus
+---
 
-Building open-source tooling for **reliable AI systems**: multi-agent orchestration, prompt evaluation pipelines, and production observability for LLM applications.
+<details>
+<summary>📊 GitHub Stats</summary>
+<br>
+<img src="https://github-readme-stats.vercel.app/api?username=kreftamarcio&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=kreftamarcio&theme=github-dark-blue&hide_border=true" />
+</details>
 
-## Contact
+---
 
-**Location**: Florianópolis, SC, Brazil
-**GitHub**: [github.com/kreftamarcio](https://github.com/kreftamarcio)
-**Agency**: [Q1 Digital](https://github.com/kreftamarcio/q1-digital) — AI-first digital products
+**Location**: Florianópolis, Brazil · **Open to**: Remote global roles in AI Engineering, Loop Engineering, Multi-Agent Systems
