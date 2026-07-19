@@ -1,13 +1,23 @@
 # Marcio Krefta
 
 ```
-⚠️ Currently evaluating 2 offers. Open to exceptional opportunities only.
+🚀 Founder & CTO at Q1 Digital — Building AI-native infrastructure for autonomous business operations.
    Specialization: Loop Engineering · Multi-Agent Systems · Prompt Infrastructure
 ```
 
 **I design self-correcting AI systems that improve themselves without human intervention.**
 
 Most AI engineers build pipelines that run once. I build **loops**: systems that evaluate their own output, detect degradation, retry with alternative strategies, and converge on correct answers autonomously. This is Loop Engineering: the discipline of making AI systems that get better every iteration without touching the code.
+
+## Building Q1 Digital
+
+Q1 Digital is an AI-native agency and product studio where every internal operation runs on self-correcting agents. The thesis: businesses shouldn't hire humans for tasks that an AI loop can handle autonomously with higher consistency.
+
+**What we ship:**
+- Autonomous WhatsApp agents for lead qualification and booking (running 24/7 in production)
+- B2B intelligence platforms with 18K+ enriched leads across 140+ countries
+- Multi-agent orchestration frameworks for complex business workflows
+- Prompt evaluation infrastructure for production LLM reliability
 
 ## The Loop Engineering Paradigm
 
@@ -36,6 +46,8 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 
 → **Self-Healing Production Systems**: WhatsApp bots that reconnect, re-authenticate, filter stale messages, and maintain conversation state across crashes.
 
+→ **B2B Data Pipelines**: Multi-source ingestion with quality scoring gates that prevent bad data from entering the system.
+
 ## Proof of Work
 
 ### [`multi-agent-orchestrator`](https://github.com/kreftamarcio/multi-agent-orchestrator) 🧠
@@ -56,6 +68,11 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 > Self-healing conversational agent: crashes → auto-reconnect → filter stale → resume.
 >
 > Running in production 24/7. Hybrid routing (deterministic + LLM) · Audio transcription · Conversation memory · Human handoff detection
+
+### [`q1b2b`](https://github.com/kreftamarcio/q1b2b) 🌍
+> B2B intelligence platform: ingest from 10+ global registries → enrich → score → outreach.
+>
+> 18K+ leads across 140+ countries. GIN trigram indexes for sub-100ms fuzzy search. BullMQ async enrichment. Quality scoring gates.
 
 ### [`reservas`](https://github.com/kreftamarcio/reservas) 📅
 > Concurrency loop solved at the database layer: attempt → constraint check → conflict? → reject atomically.
@@ -89,6 +106,7 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 **AI/LLM**: Groq, OpenAI, Anthropic, Multi-agent orchestration, Prompt evaluation
 **Loop Primitives**: Circuit breakers, Retry with backoff, Schema validation gates, Convergence criteria, Self-consistency voting
 **Infrastructure**: Railway, Vercel, AWS, Docker, PostgreSQL, Redis
+**Data**: BullMQ, Puppeteer, People Data Labs, 10+ global registries
 
 ---
 
@@ -101,4 +119,4 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 
 ---
 
-**Location**: Florianópolis, Brazil · **Open to**: Remote global roles in AI Engineering, Loop Engineering, Multi-Agent Systems
+**Founder**: [Q1 Digital](https://github.com/kreftamarcio/q1-digital) · **Location**: Florianópolis, Brazil · **Contact**: [LinkedIn](https://linkedin.com/in/kreftamarcio)
