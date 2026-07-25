@@ -11,7 +11,7 @@ Most AI engineers build pipelines that run once. I build **loops**: systems that
 
 ## What I build
 
-I work on AI-native tooling under the **Q1 Digital** name — an early-stage, pre-launch initiative exploring how self-correcting agents can handle business workflows with high consistency.
+I work on AI-native tooling under the **Q1 Digital** name, an early-stage, pre-launch initiative exploring how self-correcting agents can handle business workflows with high consistency.
 
 **Focus areas:**
 - Conversational agents for lead qualification and booking
@@ -110,10 +110,10 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 
 ## Links & Contact
 
-- 💼 **LinkedIn** — [marcio-krefta](https://www.linkedin.com/in/marcio-krefta-184a4b2b6/)
-- 🚀 **F6S** — [krefta-marcio](https://www.f6s.com/krefta-marcio)
-- 👼 **Wellfound** — [marcio-krefta-fontella](https://wellfound.com/u/marcio-krefta-fontella/)
-- 🐙 **GitHub** — [kreftamarcio](https://github.com/kreftamarcio)
+- 💼 **LinkedIn**: [marcio-krefta](https://www.linkedin.com/in/marcio-krefta-184a4b2b6/)
+- 🚀 **F6S**: [krefta-marcio](https://www.f6s.com/krefta-marcio)
+- 👼 **Wellfound**: [marcio-krefta-fontella](https://wellfound.com/u/marcio-krefta-fontella/)
+- 🐙 **GitHub**: [kreftamarcio](https://github.com/kreftamarcio)
 - 📧 kreftamarcio1@gmail.com
 
 **Location**: Florianópolis, Brazil
