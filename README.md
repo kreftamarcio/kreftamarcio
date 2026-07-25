@@ -1,8 +1,8 @@
 # Marcio Krefta
 
 ```
-🚀 Founder & CTO at Q1 Digital — Building AI-native infrastructure for autonomous business operations.
-   Specialization: Loop Engineering · Multi-Agent Systems · Prompt Infrastructure
+🚀 Founder at Q1 Digital — Building AI-native tooling for autonomous business operations.
+   Focus: Loop Engineering · Multi-Agent Systems · Prompt Infrastructure
 ```
 
 **I design self-correcting AI systems that improve themselves without human intervention.**
@@ -11,11 +11,11 @@ Most AI engineers build pipelines that run once. I build **loops**: systems that
 
 ## Building Q1 Digital
 
-Q1 Digital is an AI-native agency and product studio where every internal operation runs on self-correcting agents. The thesis: businesses shouldn't hire humans for tasks that an AI loop can handle autonomously with higher consistency.
+Q1 Digital is an AI-native product studio where internal operations run on self-correcting agents. The thesis: businesses shouldn't hire humans for tasks that an AI loop can handle autonomously with higher consistency.
 
-**What we ship:**
-- Autonomous WhatsApp agents for lead qualification and booking (running 24/7 in production)
-- B2B intelligence platforms with 18K+ enriched leads across 140+ countries
+**What I build:**
+- Conversational agents for lead qualification and booking
+- B2B intelligence tooling with multi-source lead enrichment
 - Multi-agent orchestration frameworks for complex business workflows
 - Prompt evaluation infrastructure for production LLM reliability
 
@@ -44,7 +44,7 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 
 → **Prompt Evaluation Loops**: Prompts that are continuously tested, regression-detected, and auto-optimized through evaluation pipelines.
 
-→ **Self-Healing Production Systems**: WhatsApp bots that reconnect, re-authenticate, filter stale messages, and maintain conversation state across crashes.
+→ **Self-Healing Systems**: Conversational bots that reconnect, re-authenticate, filter stale messages, and maintain state across crashes.
 
 → **B2B Data Pipelines**: Multi-source ingestion with quality scoring gates that prevent bad data from entering the system.
 
@@ -55,29 +55,18 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 >
 > Circuit breakers detect failures → Retry with backoff → Fallback to alternative provider → Validate output against schema → Only then pass downstream.
 >
-> **3500+ lines of TypeScript** · 4 execution strategies · 3 LLM providers · Full observability · 35+ files
+> TypeScript · 4 execution strategies · 3 LLM providers · Full observability
 
 ### [`prompt-forge`](https://github.com/kreftamarcio/prompt-forge) 🔥
 > The evaluation loop for prompts: version → test → detect regression → optimize → redeploy.
 >
 > Bayesian A/B testing · Self-Consistency (multi-path voting) · Statistical significance (Wilson intervals, Cohen's d) · Token compression with quality preservation
 >
-> **2800+ lines** · 5 techniques · Research-backed methodology · Power analysis
+> TypeScript · 5 techniques · Research-backed methodology · Power analysis
 
-### [`botzap`](https://github.com/kreftamarcio/botzap) 🤖
-> Self-healing conversational agent: crashes → auto-reconnect → filter stale → resume.
->
-> Running in production 24/7. Hybrid routing (deterministic + LLM) · Audio transcription · Conversation memory · Human handoff detection
-
-### [`q1b2b`](https://github.com/kreftamarcio/q1b2b) 🌍
-> B2B intelligence platform: ingest from 10+ global registries → enrich → score → outreach.
->
-> 18K+ leads across 140+ countries. GIN trigram indexes for sub-100ms fuzzy search. BullMQ async enrichment. Quality scoring gates.
-
-### [`reservas`](https://github.com/kreftamarcio/reservas) 📅
-> Concurrency loop solved at the database layer: attempt → constraint check → conflict? → reject atomically.
->
-> PostgreSQL EXCLUDE USING GIST makes race conditions physically impossible. No application-level retry needed.
+> 🔒 Additional projects (conversational agents, B2B intelligence tooling, and a
+> concurrency-safe reservation system built on PostgreSQL `EXCLUDE USING GIST`) are
+> currently in private repositories. Happy to walk through them on request.
 
 ## What makes Loop Engineering different
 
@@ -87,7 +76,6 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 | Failures are bugs to fix | Failures are expected states the system handles |
 | Quality checked by humans | Quality enforced by automated evaluation gates |
 | One model, one attempt | Multiple strategies, adaptive selection |
-| "Works on my machine" | Works in production for 30+ days unsupervised |
 
 ## Technical Philosophy
 
@@ -102,11 +90,11 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 
 ## Stack
 
-**Core**: TypeScript (primary), Python, Node.js
+**Core**: TypeScript (primary), JavaScript, Node.js
 **AI/LLM**: Groq, OpenAI, Anthropic, Multi-agent orchestration, Prompt evaluation
 **Loop Primitives**: Circuit breakers, Retry with backoff, Schema validation gates, Convergence criteria, Self-consistency voting
-**Infrastructure**: Railway, Vercel, AWS, Docker, PostgreSQL, Redis
-**Data**: BullMQ, Puppeteer, People Data Labs, 10+ global registries
+**Infrastructure**: Vercel, Docker, PostgreSQL, Redis
+**Data & Automation**: n8n, BullMQ, Puppeteer
 
 ---
 
@@ -119,4 +107,4 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 
 ---
 
-**Founder**: [Q1 Digital](https://github.com/kreftamarcio/q1-digital) · **Location**: Florianópolis, Brazil · **Contact**: [LinkedIn](https://linkedin.com/in/kreftamarcio)
+**Founder**: Q1 Digital · **Location**: Florianópolis, Brazil · **Contact**: [LinkedIn](https://www.linkedin.com/in/marcio-krefta-184a4b2b6/)
