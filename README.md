@@ -91,10 +91,12 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 ## Stack
 
 **Core**: TypeScript (primary), JavaScript, Node.js
-**AI/LLM**: Groq, OpenAI, Anthropic, Multi-agent orchestration, Prompt evaluation
+**AI/LLM**: Groq, OpenAI, Anthropic, Multi-agent orchestration, Prompt engineering, MCP (Model Context Protocol) integrations
+**Cloud**: AWS, Google Cloud, Oracle Cloud, Vercel
+**Data**: PostgreSQL, MongoDB, Redis
+**Integrations & APIs**: REST APIs, endpoints, authentication (API keys / OAuth), webhooks, n8n
 **Loop Primitives**: Circuit breakers, Retry with backoff, Schema validation gates, Convergence criteria, Self-consistency voting
-**Infrastructure**: Vercel, Docker, PostgreSQL, Redis
-**Data & Automation**: n8n, BullMQ, Puppeteer
+**Tooling**: Docker, multiple IDEs, BullMQ, Puppeteer
 
 ---
 
