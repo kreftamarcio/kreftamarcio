@@ -107,4 +107,12 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 
 ---
 
-**Founder**: Q1 Digital · **Location**: Florianópolis, Brazil · **Contact**: [LinkedIn](https://www.linkedin.com/in/marcio-krefta-184a4b2b6/)
+## Links & Contact
+
+- 💼 **LinkedIn** — [marcio-krefta](https://www.linkedin.com/in/marcio-krefta-184a4b2b6/)
+- 🚀 **F6S** — [krefta-marcio](https://www.f6s.com/krefta-marcio)
+- 👼 **Wellfound** — [marcio-krefta-fontella](https://wellfound.com/u/marcio-krefta-fontella/)
+- 🐙 **GitHub** — [kreftamarcio](https://github.com/kreftamarcio)
+- 📧 kreftamarcio1@gmail.com
+
+**Founder**: Q1 Digital · **Location**: Florianópolis, Brazil
