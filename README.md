@@ -101,8 +101,7 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 <details>
 <summary>📊 GitHub Stats</summary>
 <br>
-<img src="https://github-readme-stats.vercel.app/api?username=kreftamarcio&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kreftamarcio&theme=github-dark-blue&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api?username=kreftamarcio&show_icons=true&theme=github_dark&hide_border=true" />
 </details>
 
 ---
