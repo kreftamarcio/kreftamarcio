@@ -1,7 +1,7 @@
 # Marcio Krefta
 
 ```
-🚀 Building AI-native tooling — from problem to deploy.
+🚀 Building AI-native tooling, from problem to deploy.
    Focus: Loop Engineering · Multi-Agent Systems · Prompt Infrastructure
 ```
 
