@@ -1,7 +1,7 @@
 # Marcio Krefta
 
 ```
-🚀 Founder at Q1 Digital — Building AI-native tooling for autonomous business operations.
+🚀 Building AI-native tooling — from problem to deploy.
    Focus: Loop Engineering · Multi-Agent Systems · Prompt Infrastructure
 ```
 
@@ -9,11 +9,11 @@
 
 Most AI engineers build pipelines that run once. I build **loops**: systems that evaluate their own output, detect degradation, retry with alternative strategies, and converge on correct answers autonomously. This is Loop Engineering: the discipline of making AI systems that get better every iteration without touching the code.
 
-## Building Q1 Digital
+## What I build
 
-Q1 Digital is an AI-native product studio where internal operations run on self-correcting agents. The thesis: businesses shouldn't hire humans for tasks that an AI loop can handle autonomously with higher consistency.
+I work on AI-native tooling under the **Q1 Digital** name — an early-stage, pre-launch initiative exploring how self-correcting agents can handle business workflows with high consistency.
 
-**What I build:**
+**Focus areas:**
 - Conversational agents for lead qualification and booking
 - B2B intelligence tooling with multi-source lead enrichment
 - Multi-agent orchestration frameworks for complex business workflows
@@ -115,4 +115,4 @@ Loop Engineering: `input → model → evaluate → not good enough? → retry w
 - 🐙 **GitHub** — [kreftamarcio](https://github.com/kreftamarcio)
 - 📧 kreftamarcio1@gmail.com
 
-**Founder**: Q1 Digital · **Location**: Florianópolis, Brazil
+**Location**: Florianópolis, Brazil
