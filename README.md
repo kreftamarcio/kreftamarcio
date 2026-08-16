@@ -15,7 +15,14 @@
 - I'm currently working on **AI Agent Infrastructure** and **RAG Systems**
 - I'm passionate about building intelligent systems that scale
 - I love creating tools that make AI more accessible and reliable
-- Reach me at: **q1digitalfreela@gmail.com**
+
+## Contact
+
+| | |
+|---|---|
+| **Business** | contato@q1digital.com.br |
+| **Personal** | kreftamarcio1@gmail.com |
+| **Location** | Florianópolis, Brazil |
 
 ---
 
@@ -53,24 +60,42 @@ Prompt engineering toolkit with a statistics-backed evaluation core.
 - Bayesian A/B testing via Monte Carlo simulation
 - Green CI on Node 20 and 22: typecheck, tests, build
 
+### [eval-harness](https://github.com/kreftamarcio/eval-harness)
+
+LLM evaluation that gates releases instead of producing impressions.
+
+- Bootstrap percentile intervals rather than t-tests, because agent scores are bounded and frequently bimodal
+- Judge calibration with Cohen's kappa, plus bias separated from noise so the remedy is identifiable
+- Power analysis before any paid inference, including per-slice detection
+- Pareto cost-quality frontier with dominated configurations eliminated
+
+### [distributed-queue](https://github.com/kreftamarcio/distributed-queue)
+
+Task queue with honest delivery semantics.
+
+- Effectively-once processing, not "exactly-once delivery", which is impossible across an unreliable network
+- Visibility timeout with bounded heartbeat extension, so a crashed consumer loses no messages and a stuck one cannot hold them forever
+- Windowed deduplication with a bloom pre-filter and periodic rebuild
+- Weighted lane scheduling with a starvation bound
+
 ### Early-stage projects
 
 *Concept / scaffolding stage — implementations in progress, not production-ready.*
 
 | Project | Direction |
 |---------|-----------|
+| [agent-runtime](https://github.com/kreftamarcio/agent-runtime) | Bounded agent loops with structural loop detection |
 | [agent-memory](https://github.com/kreftamarcio/agent-memory) | Long-term memory for AI agents (episodic, semantic, procedural) |
 | [agent-debugger](https://github.com/kreftamarcio/agent-debugger) | Step-through debugger for agent reasoning chains |
-| [agent-evaluator](https://github.com/kreftamarcio/agent-evaluator) | Agent performance scoring framework |
 | [agent-handoff](https://github.com/kreftamarcio/agent-handoff) | Inter-agent handoff protocol with context preservation |
+| [mcp-toolkit](https://github.com/kreftamarcio/mcp-toolkit) | MCP server framework: schema derivation, rate limiting, error sanitization |
+| [rag-engine](https://github.com/kreftamarcio/rag-engine) | Hybrid retrieval, reranking, query rewriting, grounding checks |
+| [guardrails-core](https://github.com/kreftamarcio/guardrails-core) | I/O validation, PII redaction with checksum verification, injection detection |
+| [inference-gateway](https://github.com/kreftamarcio/inference-gateway) | Multi-provider routing with circuit breakers and stream normalization |
+| [function-calling-engine](https://github.com/kreftamarcio/function-calling-engine) | Tool-use orchestration with DAG waves and idempotency-aware retry |
 | [hybrid-search](https://github.com/kreftamarcio/hybrid-search) | Dense + sparse + keyword hybrid retrieval |
 | [graph-rag](https://github.com/kreftamarcio/graph-rag) | Graph-enhanced RAG with entity relationships |
-| [chunk-optimizer](https://github.com/kreftamarcio/chunk-optimizer) | Adaptive document chunking with semantic boundaries |
 | [hallucination-detector](https://github.com/kreftamarcio/hallucination-detector) | Factual grounding verification for LLM outputs |
-| [pipeline-orchestrator](https://github.com/kreftamarcio/pipeline-orchestrator) | ML pipeline DAG orchestration |
-| [feature-store](https://github.com/kreftamarcio/feature-store) | Online/offline feature store |
-| [model-serving](https://github.com/kreftamarcio/model-serving) | Model serving with dynamic batching |
-| [experiment-tracker](https://github.com/kreftamarcio/experiment-tracker) | ML experiment tracking |
 
 ---
 
