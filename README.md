@@ -34,29 +34,43 @@
 
 ## Featured Projects
 
-### AI Agent Infrastructure
-| Project | Description |
-|---------|-------------|
-| [agent-memory](https://github.com/kreftamarcio/agent-memory) | Long-term memory for AI agents: episodic, semantic, and procedural stores |
-| [agent-debugger](https://github.com/kreftamarcio/agent-debugger) | Step-through debugger for AI agent reasoning chains |
+### [multi-agent-orchestrator](https://github.com/kreftamarcio/multi-agent-orchestrator)
+
+Contract-first substrate for orchestrating cooperative LLM agents.
+
+- Execution strategies: sequential, parallel, consensus (majority / supermajority / unanimous / weighted voting), DAG
+- Reliability primitives: rolling-window circuit breaker, Zod schema gate, explicit failure policies (fail-fast / best-effort / require-all)
+- Multi-provider router (feasibility filtering + normalized cost/latency/quality scoring) and per-inference cost attribution with context-growth analysis
+- MCP (Model Context Protocol) server, structured tracing, eval CLI
+- Strict TypeScript, unit-tested, CI gating on typecheck, tests, and coverage
+
+### [prompt-forge](https://github.com/kreftamarcio/prompt-forge)
+
+Prompt engineering toolkit with a statistics-backed evaluation core.
+
+- 6 prompting techniques: chain-of-thought, constitutional, few-shot, ReAct, self-consistency, tree-of-thought
+- Statistical toolkit: Wilson and normal confidence intervals, Cohen's d, two-sided z-scores, power analysis
+- Bayesian A/B testing via Monte Carlo simulation
+- Green CI on Node 20 and 22: typecheck, tests, build
+
+### Early-stage projects
+
+*Concept / scaffolding stage — implementations in progress, not production-ready.*
+
+| Project | Direction |
+|---------|-----------|
+| [agent-memory](https://github.com/kreftamarcio/agent-memory) | Long-term memory for AI agents (episodic, semantic, procedural) |
+| [agent-debugger](https://github.com/kreftamarcio/agent-debugger) | Step-through debugger for agent reasoning chains |
 | [agent-evaluator](https://github.com/kreftamarcio/agent-evaluator) | Agent performance scoring framework |
 | [agent-handoff](https://github.com/kreftamarcio/agent-handoff) | Inter-agent handoff protocol with context preservation |
-
-### RAG and Retrieval
-| Project | Description |
-|---------|-------------|
-| [hybrid-search](https://github.com/kreftamarcio/hybrid-search) | Dense + sparse + keyword hybrid retrieval with rank fusion |
+| [hybrid-search](https://github.com/kreftamarcio/hybrid-search) | Dense + sparse + keyword hybrid retrieval |
 | [graph-rag](https://github.com/kreftamarcio/graph-rag) | Graph-enhanced RAG with entity relationships |
 | [chunk-optimizer](https://github.com/kreftamarcio/chunk-optimizer) | Adaptive document chunking with semantic boundaries |
 | [hallucination-detector](https://github.com/kreftamarcio/hallucination-detector) | Factual grounding verification for LLM outputs |
-
-### MLOps and Infrastructure
-| Project | Description |
-|---------|-------------|
 | [pipeline-orchestrator](https://github.com/kreftamarcio/pipeline-orchestrator) | ML pipeline DAG orchestration |
-| [feature-store](https://github.com/kreftamarcio/feature-store) | Online/offline feature store with point-in-time correctness |
-| [model-serving](https://github.com/kreftamarcio/model-serving) | Model serving with dynamic batching and auto-scaling |
-| [experiment-tracker](https://github.com/kreftamarcio/experiment-tracker) | ML experiment tracking with reproducibility guarantees |
+| [feature-store](https://github.com/kreftamarcio/feature-store) | Online/offline feature store |
+| [model-serving](https://github.com/kreftamarcio/model-serving) | Model serving with dynamic batching |
+| [experiment-tracker](https://github.com/kreftamarcio/experiment-tracker) | ML experiment tracking |
 
 ---
 
