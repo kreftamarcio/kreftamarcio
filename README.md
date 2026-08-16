@@ -1,119 +1,79 @@
-# Marcio Krefta
+<div align="center">
 
-```
-🚀 Building AI-native tooling, from problem to deploy.
-   Focus: Loop Engineering · Multi-Agent Systems · Prompt Infrastructure
-```
+# Hi there, I'm Marcio Krefta
 
-**I design self-correcting AI systems that improve themselves without human intervention.**
+### AI Engineer | TypeScript Developer | Open Source Enthusiast
 
-Most AI engineers build pipelines that run once. I build **loops**: systems that evaluate their own output, detect degradation, retry with alternative strategies, and converge on correct answers autonomously. This is Loop Engineering: the discipline of making AI systems that get better every iteration without touching the code.
+[![GitHub followers](https://img.shields.io/github/followers/kreftamarcio?style=social)](https://github.com/kreftamarcio)
 
-## What I build
-
-I work on AI-native tooling under the **Q1 Digital** name, an early-stage, pre-launch initiative exploring how self-correcting agents can handle business workflows with high consistency.
-
-**Focus areas:**
-- Conversational agents for lead qualification and booking
-- B2B intelligence tooling with multi-source lead enrichment
-- Multi-agent orchestration frameworks for complex business workflows
-- Prompt evaluation infrastructure for production LLM reliability
-
-## The Loop Engineering Paradigm
-
-```
-┌─────────────────────────────────────────────────┐
-│              THE CONVERGENCE LOOP                    │
-│                                                     │
-│   Execute ──▶ Evaluate ──▶ Detect Failure            │
-│      ▲                           │                    │
-│      │                           ▼                    │
-│   Improve ◀── Adapt Strategy ◀── Classify Root Cause  │
-│                                                     │
-│   Exit condition: quality threshold met              │
-│   Safety: max iterations + circuit breaker           │
-└─────────────────────────────────────────────────┘
-```
-
-Traditional AI: `input → model → output` (hope for the best)
-Loop Engineering: `input → model → evaluate → not good enough? → retry with adaptation → converge`
-
-## Where I apply this
-
-→ **Multi-Agent Orchestration**: Agents that detect their own failures, trip circuit breakers, and route to fallback strategies automatically.
-
-→ **Prompt Evaluation Loops**: Prompts that are continuously tested, regression-detected, and auto-optimized through evaluation pipelines.
-
-→ **Self-Healing Systems**: Conversational bots that reconnect, re-authenticate, filter stale messages, and maintain state across crashes.
-
-→ **B2B Data Pipelines**: Multi-source ingestion with quality scoring gates that prevent bad data from entering the system.
-
-## Proof of Work
-
-### [`multi-agent-orchestrator`](https://github.com/kreftamarcio/multi-agent-orchestrator) 🧠
-> Framework where agents self-correct through convergence loops.
->
-> Circuit breakers detect failures → Retry with backoff → Fallback to alternative provider → Validate output against schema → Only then pass downstream.
->
-> TypeScript · 4 execution strategies · 3 LLM providers · Full observability
-
-### [`prompt-forge`](https://github.com/kreftamarcio/prompt-forge) 🔥
-> The evaluation loop for prompts: version → test → detect regression → optimize → redeploy.
->
-> Bayesian A/B testing · Self-Consistency (multi-path voting) · Statistical significance (Wilson intervals, Cohen's d) · Token compression with quality preservation
->
-> TypeScript · 5 techniques · Research-backed methodology · Power analysis
-
-> 🔒 Additional projects (conversational agents, B2B intelligence tooling, and a
-> concurrency-safe reservation system built on PostgreSQL `EXCLUDE USING GIST`) are
-> currently in private repositories. Happy to walk through them on request.
-
-## What makes Loop Engineering different
-
-| Traditional AI Engineering | Loop Engineering |
-|---|---|
-| Build pipeline, deploy, pray | Build loop, define exit criteria, guarantee convergence |
-| Failures are bugs to fix | Failures are expected states the system handles |
-| Quality checked by humans | Quality enforced by automated evaluation gates |
-| One model, one attempt | Multiple strategies, adaptive selection |
-
-## Technical Philosophy
-
-```text
-1. Every AI output must pass through an evaluation gate before reaching users.
-2. Systems that can't self-correct aren't production-ready.
-3. Convergence > single-shot accuracy. A system that retries intelligently
-   beats a system that's 5% more accurate on the first try.
-4. Prompts are code. They get versioned, tested, and regression-detected.
-5. If the loop doesn't have an exit condition, it's not engineering, it's a while(true).
-```
-
-## Stack
-
-**Core**: TypeScript (primary), JavaScript, Node.js
-**AI/LLM**: Groq, OpenAI, Anthropic, Multi-agent orchestration, Prompt engineering, MCP (Model Context Protocol) integrations
-**Cloud**: AWS, Google Cloud, Oracle Cloud, Vercel
-**Data**: PostgreSQL, MongoDB, Redis
-**Integrations & APIs**: REST APIs, endpoints, authentication (API keys / OAuth), webhooks, n8n
-**Loop Primitives**: Circuit breakers, Retry with backoff, Schema validation gates, Convergence criteria, Self-consistency voting
-**Tooling**: Docker, multiple IDEs, BullMQ, Puppeteer
+</div>
 
 ---
 
-<details>
-<summary>📊 GitHub Stats</summary>
-<br>
-<img src="https://github-readme-stats.vercel.app/api?username=kreftamarcio&show_icons=true&theme=github_dark&hide_border=true" />
-</details>
+## About Me
+
+- I'm currently working on **AI Agent Infrastructure** and **RAG Systems**
+- I'm passionate about building intelligent systems that scale
+- I love creating tools that make AI more accessible and reliable
+- Reach me at: **q1digitalfreela@gmail.com**
 
 ---
 
-## Links & Contact
+## Tech Stack
 
-- 💼 **LinkedIn**: [marcio-krefta](https://www.linkedin.com/in/marcio-krefta-184a4b2b6/)
-- 🚀 **F6S**: [krefta-marcio](https://www.f6s.com/krefta-marcio)
-- 👼 **Wellfound**: [marcio-krefta-fontella](https://wellfound.com/u/marcio-krefta-fontella/)
-- 🐙 **GitHub**: [kreftamarcio](https://github.com/kreftamarcio)
-- 📧 kreftamarcio1@gmail.com
+| Category | Technologies |
+|----------|-------------|
+| **Languages** | TypeScript, JavaScript, Python |
+| **AI/ML** | LLMs, RAG, Vector Search, Embeddings |
+| **Backend** | Node.js, Express, Fastify |
+| **Databases** | PostgreSQL, Redis, Pinecone, Weaviate |
+| **DevOps** | Docker, GitHub Actions, AWS |
+| **Tools** | Git, VS Code, Vitest, ESLint |
 
-**Location**: Florianópolis, Brazil
+---
+
+## Featured Projects
+
+### AI Agent Infrastructure
+| Project | Description |
+|---------|-------------|
+| [agent-memory](https://github.com/kreftamarcio/agent-memory) | Long-term memory for AI agents: episodic, semantic, and procedural stores |
+| [agent-debugger](https://github.com/kreftamarcio/agent-debugger) | Step-through debugger for AI agent reasoning chains |
+| [agent-evaluator](https://github.com/kreftamarcio/agent-evaluator) | Agent performance scoring framework |
+| [agent-handoff](https://github.com/kreftamarcio/agent-handoff) | Inter-agent handoff protocol with context preservation |
+
+### RAG and Retrieval
+| Project | Description |
+|---------|-------------|
+| [hybrid-search](https://github.com/kreftamarcio/hybrid-search) | Dense + sparse + keyword hybrid retrieval with rank fusion |
+| [graph-rag](https://github.com/kreftamarcio/graph-rag) | Graph-enhanced RAG with entity relationships |
+| [chunk-optimizer](https://github.com/kreftamarcio/chunk-optimizer) | Adaptive document chunking with semantic boundaries |
+| [hallucination-detector](https://github.com/kreftamarcio/hallucination-detector) | Factual grounding verification for LLM outputs |
+
+### MLOps and Infrastructure
+| Project | Description |
+|---------|-------------|
+| [pipeline-orchestrator](https://github.com/kreftamarcio/pipeline-orchestrator) | ML pipeline DAG orchestration |
+| [feature-store](https://github.com/kreftamarcio/feature-store) | Online/offline feature store with point-in-time correctness |
+| [model-serving](https://github.com/kreftamarcio/model-serving) | Model serving with dynamic batching and auto-scaling |
+| [experiment-tracker](https://github.com/kreftamarcio/experiment-tracker) | ML experiment tracking with reproducibility guarantees |
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kreftamarcio&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kreftamarcio&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+<div align="center">
+
+*Building the future of AI, one commit at a time*
+
+</div>
