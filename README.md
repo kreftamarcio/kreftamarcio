@@ -31,11 +31,13 @@
 | Category | Technologies |
 |----------|-------------|
 | **Languages** | TypeScript, JavaScript, Python |
-| **AI/ML** | LLMs, RAG, Vector Search, Embeddings |
+| **AI/ML** | LLMs, RAG, Vector Search, Embeddings, Groq |
+| **Frontend** | Next.js, React |
 | **Backend** | Node.js, Express, Fastify |
 | **Databases** | PostgreSQL, Redis, Pinecone, Weaviate |
-| **DevOps** | Docker, GitHub Actions, AWS |
-| **Tools** | Git, VS Code, Vitest, ESLint |
+| **DevOps** | Docker, GitHub Actions, Vercel |
+| **Automation** | N8N, MCP (Model Context Protocol) |
+| **Tools** | Git, Vitest, ESLint, Zod |
 
 ---
 
@@ -80,22 +82,15 @@ Task queue with honest delivery semantics.
 
 ### Early-stage projects
 
-*Concept / scaffolding stage — implementations in progress, not production-ready.*
+*Concept / scaffolding stage, not production-ready.*
 
 | Project | Direction |
 |---------|-----------|
 | [agent-runtime](https://github.com/kreftamarcio/agent-runtime) | Bounded agent loops with structural loop detection |
 | [agent-memory](https://github.com/kreftamarcio/agent-memory) | Long-term memory for AI agents (episodic, semantic, procedural) |
-| [agent-debugger](https://github.com/kreftamarcio/agent-debugger) | Step-through debugger for agent reasoning chains |
-| [agent-handoff](https://github.com/kreftamarcio/agent-handoff) | Inter-agent handoff protocol with context preservation |
 | [mcp-toolkit](https://github.com/kreftamarcio/mcp-toolkit) | MCP server framework: schema derivation, rate limiting, error sanitization |
 | [rag-engine](https://github.com/kreftamarcio/rag-engine) | Hybrid retrieval, reranking, query rewriting, grounding checks |
 | [guardrails-core](https://github.com/kreftamarcio/guardrails-core) | I/O validation, PII redaction with checksum verification, injection detection |
-| [inference-gateway](https://github.com/kreftamarcio/inference-gateway) | Multi-provider routing with circuit breakers and stream normalization |
-| [function-calling-engine](https://github.com/kreftamarcio/function-calling-engine) | Tool-use orchestration with DAG waves and idempotency-aware retry |
-| [hybrid-search](https://github.com/kreftamarcio/hybrid-search) | Dense + sparse + keyword hybrid retrieval |
-| [graph-rag](https://github.com/kreftamarcio/graph-rag) | Graph-enhanced RAG with entity relationships |
-| [hallucination-detector](https://github.com/kreftamarcio/hallucination-detector) | Factual grounding verification for LLM outputs |
 
 ---
 
