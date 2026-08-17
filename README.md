@@ -60,6 +60,7 @@ Prompt engineering toolkit with a statistics-backed evaluation core.
 - 6 prompting techniques: chain-of-thought, constitutional, few-shot, ReAct, self-consistency, tree-of-thought
 - Statistical toolkit: Wilson and normal confidence intervals, Cohen's d, two-sided z-scores, power analysis
 - Bayesian A/B testing via Monte Carlo simulation
+- Eval suite runs only when you inject `callModel` — no hidden provider, no silent 0%
 - Green CI on Node 20 and 22: typecheck, tests, build
 
 ### [eval-harness](https://github.com/kreftamarcio/eval-harness)
@@ -67,8 +68,8 @@ Prompt engineering toolkit with a statistics-backed evaluation core.
 LLM evaluation that gates releases instead of producing impressions.
 
 - Bootstrap percentile intervals rather than t-tests, because agent scores are bounded and frequently bimodal
-- Judge calibration with Cohen's kappa, plus bias separated from noise so the remedy is identifiable
-- Power analysis before any paid inference, including per-slice detection
+- Power analysis before any paid inference, including per-slice detection (`analyzeSlices`)
+- Paired comparison by case id, so a retried or dropped example cannot silently pair with the wrong neighbor
 - Pareto cost-quality frontier with dominated configurations eliminated
 
 ### [distributed-queue](https://github.com/kreftamarcio/distributed-queue)
