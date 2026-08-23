@@ -22,8 +22,8 @@ I design and build **multi-agent AI infrastructure** in TypeScript. Not wrappers
 
 Every repo I ship has: strict types (zero `any`), tested CI, explicit failure modes, and documentation that explains *why*, not just *what*.
 
-**Based in:** Florianópolis, Brazil  
-**Company:** [Q1 Digital](https://q1digital.com.br) · AI consulting & multi-agent solutions for SMBs  
+**Location:** Global (Remote)  
+**Project:** [Q1 Digital](https://q1digital.com.br) · Global Pre-Seed AI Initiative · Multi-Agent Architectures & Enterprise Systems  
 **Stack conviction:** TypeScript end-to-end. If it can't be typed, it can't be trusted.
 
 ---
