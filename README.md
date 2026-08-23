@@ -2,7 +2,7 @@
 
 # Marcio Krefta
 
-### AI Infrastructure Engineer · Multi-Agent Systems · TypeScript Purist
+### AI Infrastructure Developer · Multi-Agent Systems · TypeScript Purist
 
 *Building production-grade AI systems that don't hallucinate, don't crash, and don't lie about it.*
 
