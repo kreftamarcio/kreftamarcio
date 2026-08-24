@@ -1,96 +1,99 @@
+# Q1 AI Infrastructure Stack
+**End-to-End Production-Grade AI Ecosystem**
 
-<div align="center">
-  <img src="https://img.shields.io/badge/AI_Native-Architect-000000?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenTelemetry-Tracing-blue?style=for-the-badge&logo=opentelemetry&logoColor=white" />
-  <img src="https://img.shields.io/badge/SLSA-Level_3-green?style=for-the-badge" />
-</div>
+[![Strict TypeScript](https://img.shields.io/badge/TypeScript-Strict_Zero_Any-blue.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org/)
+[![Architecture](https://img.shields.io/badge/Architecture-Kahn_Layering-orange.svg)]()
+[![Production Ready](https://img.shields.io/badge/Status-Production_Ready-success.svg)]()
 
-# 🚀 Marcio Krefta
-### Building AI-native tooling, from problem to deploy.
+> A robust, lock-free, and deterministic infrastructure for autonomous AI agents, multi-agent orchestration, and production RAG systems.
 
-Focusing on **Loop Engineering, Multi-Agent Systems, and Prompt Infrastructure**. I build deterministic, observable, and highly reliable systems over probabilistic LLM layers.
-
----
-
-## 🌌 The Q1 Agent Platform (Unified AI Ecosystem)
-
-My open-source work forms a complete, interoperable **AI Agent Operating Core**. Every module is built with TypeScript, validated with Zod, and fully observable via OpenTelemetry.
+## 🏗️ Architecture Map
 
 ```mermaid
 graph TD
-    subgraph "1. Edge & Routing"
-        IG[inference-gateway<br/>Multi-Provider Routing] --> GC[guardrails-core<br/>PII & Jailbreak Defense]
-        GC --> FCE[function-calling-engine<br/>Parallel Tool Use]
+    %% Core Orchestration
+    subgraph Orchestration Layer
+        MAO[multi-agent-orchestrator]
+        AR[agent-runtime]
+        FCE[function-calling-engine]
     end
 
-    subgraph "2. Execution Core"
-        FCE --> AR[agent-runtime<br/>Sandboxed Execution]
-        AR --> MAO[multi-agent-orchestrator<br/>State Machine]
-        MAO --> DQ[distributed-queue<br/>Redis/PG Lock-Free]
+    %% Infrastructure & RAG
+    subgraph Infrastructure & Data Layer
+        IG[inference-gateway]
+        RAG[rag-engine]
+        DQ[distributed-queue]
     end
 
-    subgraph "3. Memory & RAG"
-        AR --> AM[agent-memory<br/>Episodic/Semantic]
-        AR --> RE[rag-engine<br/>Hybrid Vector Search]
-        AR --> MCP[mcp-toolkit<br/>Model Context Protocol]
+    %% Safety & State
+    subgraph Governance & State
+        GC[guardrails-core]
+        AM[agent-memory]
+        MCP[mcp-toolkit]
     end
 
-    subgraph "4. Governance & Evals"
-        MAO -.-> QAAB[q1-agent-adversarial-bench]
-        MAO -.-> EH[eval-harness<br/>Cost-Quality Pareto]
-        MAO -.-> PF[prompt-forge<br/>Version & A/B Test]
+    %% Evaluation
+    subgraph Evaluation Loop
+        EH[eval-harness]
+        PF[prompt-forge]
+        AB[q1-agent-adversarial-bench]
     end
+
+    %% Data Flow
+    MAO -->|Spawns Sandboxed Agents| AR
+    AR -->|Validates Tools| FCE
+    FCE -->|Executes Actions| MCP
+    
+    AR -->|Routes LLM Calls| IG
+    IG -->|Validates I/O| GC
+    
+    AR -->|Semantic Search| RAG
+    AR -->|State Management| AM
+    
+    MAO -.->|Task Dispatch| DQ
+    
+    EH -.->|Continuous Benchmarking| MAO
+    PF -.->|Prompt Versioning| MAO
+    
+    classDef core fill:#2a2a2a,stroke:#3b82f6,stroke-width:2px,color:#fff;
+    classDef infra fill:#2a2a2a,stroke:#10b981,stroke-width:2px,color:#fff;
+    classDef safety fill:#2a2a2a,stroke:#f59e0b,stroke-width:2px,color:#fff;
+    classDef eval fill:#2a2a2a,stroke:#8b5cf6,stroke-width:2px,color:#fff;
+    
+    class MAO,AR,FCE core;
+    class IG,RAG,DQ infra;
+    class GC,AM,MCP safety;
+    class EH,PF,AB eval;
 ```
 
-## ⚡ Quickstart: The Agent Stack in 30 Seconds
+## 📦 The Ecosystem
 
-Assemble a secure, observable agent pipeline seamlessly:
+### 🧠 1. Core Orchestration
+- **[multi-agent-orchestrator](https://github.com/kreftamarcio/multi-agent-orchestrator)**: TypeScript framework for orchestrating cooperative LLM agents with fault tolerance, circuit breakers, and observable state machines.
+- **[agent-runtime](https://github.com/kreftamarcio/agent-runtime)**: Lightweight AI agent execution runtime featuring sandboxed tool calls, resource limits, execution traces, and graceful termination.
+- **[function-calling-engine](https://github.com/kreftamarcio/function-calling-engine)**: Robust LLM tool-use orchestration with JSON schema validation, retry policies, parallel execution, timeout management, and result aggregation.
 
-```typescript
-import { InferenceGateway } from "@kreftamarcio/inference-gateway";
-import { Guardrails } from "@kreftamarcio/guardrails-core";
-import { FunctionEngine } from "@kreftamarcio/function-calling-engine";
-import { AgentMemory } from "@kreftamarcio/agent-memory";
+### 🌐 2. AI Infrastructure & Data
+- **[inference-gateway](https://github.com/kreftamarcio/inference-gateway)**: Multi-provider LLM routing with circuit breakers, cost-aware load balancing, streaming multiplexer, automatic fallback, and native OpenTelemetry observability.
+- **[rag-engine](https://github.com/kreftamarcio/rag-engine)**: Production-grade RAG pipeline implementing hybrid search (dense + sparse), multi-strategy chunking, cross-encoder reranking, citation extraction, and hallucination scoring.
+- **[distributed-queue](https://github.com/kreftamarcio/distributed-queue)**: Lock-free distributed task queue ensuring exactly-once delivery, dead-letter handling, priority lanes, and backpressure.
 
-// 1. Initialize Multi-Provider Router with Failover (Groq -> Claude -> OpenAI)
-const gateway = new InferenceGateway({ primary: 'groq', fallback: 'anthropic' });
+### 🛡️ 3. Governance, Safety & State
+- **[guardrails-core](https://github.com/kreftamarcio/guardrails-core)**: AI safety layer performing I/O validation, PII redaction, prompt injection detection, topic boundary enforcement, and structured output validation via Zod.
+- **[agent-memory](https://github.com/kreftamarcio/agent-memory)**: Long-term memory system for AI agents utilizing episodic, semantic, and procedural stores with temporal decay and relevance-recency retrieval tradeoffs.
+- **[mcp-toolkit](https://github.com/kreftamarcio/mcp-toolkit)**: Framework for building MCP servers with automatic schema generation, auth middleware, rate limiting, health checks, and hot-reload dev mode.
 
-// 2. Wrap with PII Redaction and Prompt Injection Detection
-const safeGateway = new Guardrails(gateway).withPIIRedaction().withJailbreakDetection();
+### 🧪 4. Evaluation & Benchmarking
+- **[eval-harness](https://github.com/kreftamarcio/eval-harness)**: LLM evaluation framework automating benchmarks, human-in-the-loop scoring, regression detection, and Pareto cost-quality analysis.
+- **[prompt-forge](https://github.com/kreftamarcio/prompt-forge)**: Systematic prompt engineering toolkit providing evaluation pipelines, versioning, A/B testing, and regression detection.
+- **[q1-agent-adversarial-bench](https://github.com/kreftamarcio/q1-agent-adversarial-bench)**: Open, adapter-based adversarial benchmark targeting agent security, verification, replay, and bounded self-improvement.
 
-// 3. Attach Sandboxed Tools & Long-Term Memory
-const engine = new FunctionEngine({ tools: [weatherTool, dbQueryTool] });
-const memory = new AgentMemory({ provider: 'qdrant', similarity: 'cosine' });
-
-// 4. Execute
-const result = await engine.execute(safeGateway, "What's the revenue trend in Q3?", { memory });
-```
-
----
-
-## 🏆 Core Projects
-
-### 🧠 Intelligence & RAG
-- 🔍 **[rag-engine](https://github.com/kreftamarcio/rag-engine)**: Hybrid search (dense + sparse), multi-strategy chunking, cross-encoder reranking, and hallucination scoring.
-- 💾 **[agent-memory](https://github.com/kreftamarcio/agent-memory)**: Long-term memory system for AI agents (episodic, semantic, procedural) with temporal decay and importance scoring.
-- 🔌 **[mcp-toolkit](https://github.com/kreftamarcio/mcp-toolkit)**: Framework for building Model Context Protocol (MCP) servers with automatic schema generation and auth middleware.
-
-### ⚙️ Orchestration & Execution
-- 🔄 **[multi-agent-orchestrator](https://github.com/kreftamarcio/multi-agent-orchestrator)**: TypeScript framework for orchestrating cooperative LLM agents with fault tolerance and circuit breakers.
-- 🛠️ **[function-calling-engine](https://github.com/kreftamarcio/function-calling-engine)**: Robust LLM tool-use orchestration: JSON schema validation, retry policies, parallel execution.
-- 🚀 **[agent-runtime](https://github.com/kreftamarcio/agent-runtime)**: Lightweight AI agent execution runtime: sandboxed tool calls, resource limits, and execution traces.
-- ⚡ **[inference-gateway](https://github.com/kreftamarcio/inference-gateway)**: Multi-provider LLM routing with circuit breakers, cost-aware load balancing, and native OpenTelemetry.
-- 📨 **[distributed-queue](https://github.com/kreftamarcio/distributed-queue)**: Lock-free distributed task queue: exactly-once delivery, dead-letter handling, priority lanes.
-
-### 🛡️ Safety & Benchmarks
-- 🛑 **[guardrails-core](https://github.com/kreftamarcio/guardrails-core)**: AI safety layer: I/O validation, PII redaction, prompt injection detection, structured output validation (Zod).
-- ⚖️ **[eval-harness](https://github.com/kreftamarcio/eval-harness)**: LLM evaluation framework: automated benchmarks, regression detection, Pareto cost-quality analysis.
-- 🛡️ **[q1-agent-adversarial-bench](https://github.com/kreftamarcio/q1-agent-adversarial-bench)**: Adversarial benchmark for agent security, verification, replay, and bounded self-improvement.
-- 🧪 **[prompt-forge](https://github.com/kreftamarcio/prompt-forge)**: Prompt engineering toolkit with evaluation pipelines, versioning, A/B testing, and regression detection.
+## 🚀 Key Engineering Principles
+1. **Contracts First**: Zod schemas define every boundary. Everything else is implementation detail.
+2. **Fail Explicitly**: Partial success > silent failure. Every error has a strict code, phase, and cause.
+3. **Zero Any**: Enforced by `strictTypeChecked` ESLint. No escape hatches in production code.
+4. **Observe Everything**: If it's not in the trace (OpenTelemetry), it didn't happen.
 
 ---
-
-<div align="center">
-  <i>Every repository follows strict Open Source Security Foundation (OSSF) guidelines, SLSA Level 3 supply-chain security, and semantic versioning.</i>
-</div>
+*Architected and maintained by [Marcio Krefta Fontella](https://github.com/kreftamarcio)*
