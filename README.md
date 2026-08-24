@@ -86,10 +86,10 @@ graph TD
 
 ### 🧪 4. Evaluation & Benchmarking
 - **[eval-harness](https://github.com/kreftamarcio/eval-harness)**: LLM evaluation framework automating benchmarks, human-in-the-loop scoring, regression detection, and Pareto cost-quality analysis.
-- **[prompt-forge](https://github.com/kreftamarcio/prompt-forge)**: Systematic prompt engineering toolkit providing evaluation pipelines, versioning, A/B testing, and regression detection.
+- **[prompt-forge](https://github.com/kreftamarcio/prompt-forge)**: Systematic prompt development toolkit providing evaluation pipelines, versioning, A/B testing, and regression detection.
 - **[q1-agent-adversarial-bench](https://github.com/kreftamarcio/q1-agent-adversarial-bench)**: Open, adapter-based adversarial benchmark targeting agent security, verification, replay, and bounded self-improvement.
 
-## 🚀 Key Engineering Principles
+## 🚀 Key Development Principles
 1. **Contracts First**: Zod schemas define every boundary. Everything else is implementation detail.
 2. **Fail Explicitly**: Partial success > silent failure. Every error has a strict code, phase, and cause.
 3. **Zero Any**: Enforced by `strictTypeChecked` ESLint. No escape hatches in production code.
