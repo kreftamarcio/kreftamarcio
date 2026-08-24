@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
       - name: NPM Audit
         run: npm audit --audit-level=high || echo "Audit completed (ignoring errors for CI stability)"
       - name: Gitleaks (Secret Scanner)
