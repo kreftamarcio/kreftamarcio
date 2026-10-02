@@ -1,7 +1,7 @@
 {
   "name": "kreftamarcio",
   "version": "1.0.0",
-  "description": "AI Agent Infrastructure",
+  "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
