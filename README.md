@@ -17,7 +17,7 @@
 
 ### 🚀 Sobre Mim & Arquitetura de IA
 
-- 💎 **Membro do GitHub Developer Program**: Desenvolvedor verificado focado em ecossistema de APIs, automações CI/CD e ferramentas de IA de escala.
+- 💎 **Membro do GitHub Developer Program**: Desenvolvedor verificado focado no ecossistema de APIs, automações de PRs e ferramentas de IA de escala.
 - 🧠 **Engenharia de Prompt & Context Engineering**: Especialista em meta-prompts, system instructions determinísticas, reasoning chains (CoT, ToT, ReAct) e compressão de contexto para economia extrema de tokens.
 - ⚡ **Google Gemini & Antigravity IDE**: Desenvolvimento avançado com Gemini 1.5/2.0 Pro e Flash, Genkit, tool-calling multimodal e hubs de skills de engenharia de software autônoma.
 - 🛡️ **AI Safety & Guardrails**: Defesa contra injeção de prompt, validação de saídas estruturadas com Pydantic/Instructor e benchmarking contínuo.
@@ -41,7 +41,20 @@
 
 ### 🛠️ Stack Tecnológica & Especialidades
 
+```yaml
+Prompt Engineering:
+  Techniques: [Chain-of-Thought, Tree-of-Thoughts, Few-Shot In-Context, ReAct, Self-Refine]
+  Context Engineering: [Token Optimization, LLMLingua Compression, Semantic Chunking, HyDE]
+  Guardrails & Formats: [Pydantic, Instructor, Outlines, JSON Schema Enforcement]
 
+AI Engineering & Agents:
+  Models: [Google Gemini 1.5/2.0 Pro/Flash, Claude 3.5 Sonnet, GPT-4o, DeepSeek-R1]
+  Tooling: [Google Antigravity IDE, Genkit (Go/JS/Python), LiteLLM, Ollama]
+  Agent Orchestration: [Skills Hubs, Autonomous PR Review, MCP Servers (Model Context Protocol)]
+
+DevOps & Tooling:
+  Environments: [GitHub Actions, Linux/Bash Scripting, Docker, Python 3.12+, TypeScript]
+```
 
 ---
 
