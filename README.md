@@ -9,21 +9,21 @@
 [![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%2F%20Debian-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
 
 <p align="center">
-  <b>Engenharia de Prompt • Context Engineering • Sistemas Agênticos Autônomos</b>
+  <b>Google Gemini • Antigravity IDE • Arquitetura Anti-Alucinação • Context Engineering</b>
 </p>
 
 </div>
 
 ---
 
-### 🚀 Sobre Mim & Foco Técnico
+### 🚀 Sobre Mim & Arquitetura de IA
 
-Profissional focado em **Inteligência Artificial, Arquitetura de Prompts** e automação no ecossistema **Google Gemini / Antigravity IDE**, com ênfase em **Model Context Protocol (MCP)**:
+Profissional dedicado ao ecossistema **Google Gemini / Antigravity IDE**, com foco em **Engenharia de Prompt de Alta Densidade**, arquitetura de agentes autônomos e sistemas com **tolerância zero a alucinações**:
 
-- 🧠 **Engenharia de Prompt & Context Engineering**: Desenvolvimento de meta-prompts determinísticos, reasoning chains (Chain-of-Thought, ReAct) e compressão semântica para eficiência máxima de tokens.
-- ⚡ **Model Context Protocol & Tool Calling**: Integração de servidores MCP para conectar modelos de linguagem a ferramentas de ambiente (Git, sistemas de arquivos, busca e APIs).
-- 🛡️ **Guardrails & Validação Estruturada**: Enforçamento de esquemas JSON, validação de tipos com Pydantic / TypeScript e mitigação de vulnerabilidades em prompts.
-- 🔄 **Automação & DevOps**: Pipelines com GitHub Actions, Docker, Linux/Bash scripting e arquiteturas conteinerizadas.
+- ⚡ **Google Gemini & Antigravity IDE**: Desenvolvimento avançado explorando janelas massivas de contexto (até 2M tokens), multimodalidade nativa (código, texto, diagramas) e modelos Flash para orquestração ágil de agentes.
+- 🛡️ **Arquitetura Anti-Alucinação (Evidence-First)**: Implementação de pipelines baseados no princípio *Verification Before Completion* — onde nenhuma asserção é aceita sem teste automatizado, evidência de execução e validação factual.
+- 🧠 **Context Engineering & Token Economy**: Modelagem de meta-prompts determinísticos, raciocínio estruturado (Chain-of-Thought, ReAct) e compressão semântica para eficiência máxima de custos e taxa de processamento.
+- 🔌 **Model Context Protocol (MCP) & Tool Calling**: Integração segura de ferramentas de ambiente (Git, filesystem, terminais e APIs REST) para autonomia controlada de modelos de linguagem.
 
 ---
 
@@ -32,26 +32,26 @@ Profissional focado em **Inteligência Artificial, Arquitetura de Prompts** e au
 ```yaml
 IA & Engenharia de Prompt:
   Modelos: [Google Gemini 1.5/2.0 Pro & Flash, Claude 3.5 Sonnet, GPT-4o]
-  Técnicas: [Chain-of-Thought, ReAct, Few-Shot In-Context, Instruções de Sistema Determinísticas]
-  Otimização de Contexto: [Token Economy, Semantic Chunking, Esquemas Estruturados]
-  Guardrails: [Pydantic, Enforçamento de Esquema JSON, Higienização de Saídas]
+  Frameworks: [Google Genkit, Pydantic, Model Context Protocol (MCP)]
+  Controle Anti-Alucinação: [Verification Loops, Grounding Estrito, JSON Schema Enforcement]
+  Otimização: [Token Economy, Semantic Chunking, System Instructions Determinísticas]
 
-Desenvolvimento & Tooling:
+Engenharia de Software & DevOps:
   Linguagens: [Python 3.12+, TypeScript, Bash]
-  Protocolos: [Model Context Protocol (MCP), REST APIs, Webhooks]
-  Ambiente: [Linux/Ubuntu, Docker, Git, Google Antigravity IDE]
+  Ferramentas: [Google Antigravity IDE, Docker, GitHub Actions, Linux/Ubuntu]
+  Padrões: [TDD, CI/CD Automatizado, Defesa em Profundidade contra Prompt Injection]
 ```
 
 ---
 
 ### 📂 Projetos & Iniciativas
 
-- 🧠 **[prompt-engineering-corpus](https://github.com/kreftamarcio/prompt-engineering-corpus)** — Repositório de estudo e testes estruturados para padrões de prompt engineering, contratos de contexto e benchmarks.
-- ⚡ **Skills Hub & Multi-Agent Workflows** — Arquitetura de hubs de skills modulares para agentes autônomos e execução assistida por IA.
-- 🛡️ **PR Guardião** — Ferramentas e rotinas automatizadas para validação de código, checagem de commits e governança de Pull Requests.
+- 🧠 **[prompt-engineering-corpus](https://github.com/kreftamarcio/prompt-engineering-corpus)** — Repositório de experimentação e benchmarking para padrões determinísticos de prompts e contratos de contexto.
+- ⚡ **Skills Hub & Multi-Agent Loops** — Arquitetura de skills modulares com loops de verificação contínua e mitigação de alucinações para agentes autônomos.
+- 🛡️ **PR Guardião** — Ferramentas internas para validação estática, checagem de commits convencionais e auditoria de Pull Requests.
 
 ---
 
 <div align="center">
-  <sub>Constante evolução com foco em engenharia prática, rigor técnico e excelência em IA.</sub>
+  <sub>Constante evolução guiada por evidências técnicas, rigor prático e inteligência artificial responsável.</sub>
 </div>
