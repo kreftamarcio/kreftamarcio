@@ -23,37 +23,36 @@
     <tr>
       <td align="center" width="20%">
         <a href="https://github.com/q1-by-taco/pull-shark-quest">
-          <img src="https://github.githubassets.com/assets/pull-shark-gold-9b37c0f1624c.png" width="90px" alt="Pull Shark Gold" /><br />
+          <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pull-shark-gold.png" width="95px" alt="Pull Shark Gold" /><br />
           <b>Pull Shark</b><br />
           <sub>🥇 Ouro (128 PRs)</sub>
         </a>
       </td>
       <td align="center" width="20%">
         <a href="https://github.com/q1-by-taco/pull-shark-quest/issues/1">
-          <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="90px" alt="Quickdraw" /><br />
+          <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/quickdraw.png" width="95px" alt="Quickdraw" /><br />
           <b>Quickdraw</b><br />
-          <sub>⚡ < 5 Minutos</sub>
+          <sub>⚡ &lt; 5 Minutos</sub>
         </a>
       </td>
       <td align="center" width="20%">
         <a href="https://github.com/q1-by-taco/pull-shark-quest/pull/2">
-          <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="90px" alt="YOLO" /><br />
+          <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/yolo.png" width="95px" alt="YOLO" /><br />
           <b>YOLO</b><br />
           <sub>🚀 No Review Merge</sub>
         </a>
       </td>
       <td align="center" width="20%">
         <a href="https://github.com/q1-by-taco/pull-shark-quest/pull/2">
-          <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="90px" alt="Pair Extraordinaire" /><br />
+          <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pair-extraordinaire.png" width="95px" alt="Pair Extraordinaire" /><br />
           <b>Pair Extraordinaire</b><br />
           <sub>👯 Co-Authored PR</sub>
         </a>
       </td>
       <td align="center" width="20%">
         <a href="https://github.com/q1-by-taco/pull-shark-quest/discussions">
-          <img src="https://github.githubassets.com/assets/galaxy-brain-default-6f34e622b7c4.png" width="90px" alt="Galaxy Brain" /><br />
-          <b>Galaxy Brain</b><br />
-          <sub>🧠 2+ Q&A Accepted</sub>
+          <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/galaxy-brain.png" width="95px" alt="Galaxy Brain" /><br />
+          <sub>🧠 2+ Q&amp;A Accepted</sub>
         </a>
       </td>
     </tr>
