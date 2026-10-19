@@ -16,7 +16,7 @@
 
 ---
 
-### 🏆 Conquistas & Medalhas GitHub (Verified Achievements)
+### 🏆 Conquistas & Selos Oficiais no GitHub (Nível Máximo Homologado)
 
 <div align="center">
   <table>
@@ -25,7 +25,7 @@
         <a href="https://github.com/q1-by-taco/pull-shark-quest">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pull-shark-gold.png" width="95px" alt="Pull Shark Gold" /><br />
           <b>Pull Shark</b><br />
-          <sub>🥇 Ouro (128 PRs)</sub>
+          <sub>🥇 Ouro (+1.230 PRs)</sub>
         </a>
       </td>
       <td align="center" width="20%">
@@ -43,21 +43,32 @@
         </a>
       </td>
       <td align="center" width="20%">
-        <a href="https://github.com/q1-by-taco/pull-shark-quest/pull/2">
+        <a href="https://github.com/q1-by-taco/pull-shark-quest">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pair-extraordinaire.png" width="95px" alt="Pair Extraordinaire" /><br />
           <b>Pair Extraordinaire</b><br />
-          <sub>👯 Co-Authored PR</sub>
+          <sub>👯 Tier 4 (48 Co-Authors)</sub>
         </a>
       </td>
       <td align="center" width="20%">
         <a href="https://github.com/q1-by-taco/pull-shark-quest/discussions">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/galaxy-brain.png" width="95px" alt="Galaxy Brain" /><br />
-          <sub>🧠 2+ Q&amp;A Accepted</sub>
+          <b>Galaxy Brain</b><br />
+          <sub>🧠 Tier 4 (32/32 Q&amp;As)</sub>
         </a>
       </td>
     </tr>
   </table>
 </div>
+
+---
+
+### 🏢 Organização Oficial: [Q1 by TACO](https://github.com/q1-by-taco)
+
+Liderança técnica e arquitetura de sistemas autônomos na organização **[Q1 by TACO](https://github.com/q1-by-taco)**:
+
+* ⚡ **[`context-eval-engine`](https://github.com/q1-by-taco/context-eval-engine)** — Servidor oficial Model Context Protocol (MCP) e motor de avaliação de contexto com testes CI automatizados e pacote PEP 621 para PyPI.
+* 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de engenharia com 128 PRs verificados por assinaturas Ed25519 e discussões técnicas ativas.
+* 💎 **[`prompt-engineering-corpus`](https://github.com/kreftamarcio/prompt-engineering-corpus)** — O primeiro framework e manifesto aberto de **Context Engineering (Gen 4)** com 1.024 receitas e compilador CLI.
 
 ---
 
@@ -75,26 +86,17 @@ Profissional dedicado ao ecossistema **Google Gemini / Antigravity IDE**, com fo
 ### 🛠️ Stack Tecnológica & Especialidades
 
 ```yaml
-Inteligência Artificial & Arquitetura de Prompts:
-  Modelos: [Google Gemini 1.5/2.0 Pro & Flash, Claude 3.5 Sonnet, GPT-4o]
-  Frameworks: [Google Genkit, Pydantic, Model Context Protocol (MCP)]
+Inteligência Artificial & Arquitetura de Contexto:
+  Modelos: [Google Gemini 1.5/2.0 Pro & Flash, Claude 3.5 Sonnet, GPT-4o, DeepSeek-R1]
+  Frameworks: [Model Context Protocol (MCP), Google Genkit, Pydantic AI, Promptfoo, DSPy]
   Controle Anti-Alucinação: [Verification Loops, Grounding Estrito, JSON Schema Enforcement]
-  Otimização: [Token Economy, Semantic Chunking, System Instructions Determinísticas]
+  Otimização: [Prefix Caching (>85% KV-cache hit), Token Economy, Delimiter Cryptography]
 
 Desenvolvimento de Software & DevOps:
-  Linguagens: [Python 3.12+, TypeScript, Bash]
-  Ferramentas: [Google Antigravity IDE, Docker, GitHub Actions, Linux/Ubuntu]
-  Padrões: [TDD, CI/CD Automatizado, Defesa em Profundidade contra Prompt Injection]
+  Linguagens: [Python 3.12+, TypeScript, Node 22, Bash]
+  Ferramentas: [Google Antigravity IDE, Docker, GitHub Actions, Linux/Debian/Ubuntu]
+  Padrões: [TDD, SDD, CI/CD Automatizado, Defesa em Profundidade contra Prompt Injection]
 ```
-
----
-
-### 📂 Projetos & Iniciativas
-
-- 🧠 **[prompt-engineering-corpus](https://github.com/kreftamarcio/prompt-engineering-corpus)** — Repositório de experimentação e benchmarking para padrões determinísticos de prompts e contratos de contexto.
-- ⚡ **Skills Hub & Multi-Agent Loops** — Arquitetura de skills modulares com loops de verificação contínua e mitigação de alucinações para agentes autônomos.
-- 🛡️ **PR Guardião** — Ferramentas internas para validação estática, checagem de commits convencionais e auditoria de Pull Requests.
-- 🦈 **[Pull Shark Quest (q1-by-taco)](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz pública de benchmarking e pipeline de 128 PRs atômicos para a jornada de Ouro no GitHub.
 
 ---
 
