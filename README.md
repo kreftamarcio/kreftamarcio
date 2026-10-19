@@ -16,6 +16,52 @@
 
 ---
 
+### 🏆 Conquistas & Medalhas GitHub (Verified Achievements)
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="20%">
+        <a href="https://github.com/q1-by-taco/pull-shark-quest">
+          <img src="https://github.githubassets.com/assets/pull-shark-gold-9b37c0f1624c.png" width="90px" alt="Pull Shark Gold" /><br />
+          <b>Pull Shark</b><br />
+          <sub>🥇 Ouro (128 PRs)</sub>
+        </a>
+      </td>
+      <td align="center" width="20%">
+        <a href="https://github.com/q1-by-taco/pull-shark-quest/issues/1">
+          <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="90px" alt="Quickdraw" /><br />
+          <b>Quickdraw</b><br />
+          <sub>⚡ < 5 Minutos</sub>
+        </a>
+      </td>
+      <td align="center" width="20%">
+        <a href="https://github.com/q1-by-taco/pull-shark-quest/pull/2">
+          <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="90px" alt="YOLO" /><br />
+          <b>YOLO</b><br />
+          <sub>🚀 No Review Merge</sub>
+        </a>
+      </td>
+      <td align="center" width="20%">
+        <a href="https://github.com/q1-by-taco/pull-shark-quest/pull/2">
+          <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="90px" alt="Pair Extraordinaire" /><br />
+          <b>Pair Extraordinaire</b><br />
+          <sub>👯 Co-Authored PR</sub>
+        </a>
+      </td>
+      <td align="center" width="20%">
+        <a href="https://github.com/q1-by-taco/pull-shark-quest/discussions">
+          <img src="https://github.githubassets.com/assets/galaxy-brain-default-6f34e622b7c4.png" width="90px" alt="Galaxy Brain" /><br />
+          <b>Galaxy Brain</b><br />
+          <sub>🧠 2+ Q&A Accepted</sub>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ### 🚀 Sobre Mim & Arquitetura de IA
 
 Profissional dedicado ao ecossistema **Google Gemini / Antigravity IDE**, com foco em **Arquitetura e Otimização de Prompts**, desenvolvimento de agentes autônomos e sistemas com **tolerância zero a alucinações**:
@@ -49,6 +95,7 @@ Desenvolvimento de Software & DevOps:
 - 🧠 **[prompt-engineering-corpus](https://github.com/kreftamarcio/prompt-engineering-corpus)** — Repositório de experimentação e benchmarking para padrões determinísticos de prompts e contratos de contexto.
 - ⚡ **Skills Hub & Multi-Agent Loops** — Arquitetura de skills modulares com loops de verificação contínua e mitigação de alucinações para agentes autônomos.
 - 🛡️ **PR Guardião** — Ferramentas internas para validação estática, checagem de commits convencionais e auditoria de Pull Requests.
+- 🦈 **[Pull Shark Quest (q1-by-taco)](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz pública de benchmarking e pipeline de 128 PRs atômicos para a jornada de Ouro no GitHub.
 
 ---
 
