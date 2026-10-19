@@ -25,7 +25,7 @@
         <a href="https://github.com/q1-by-taco/pull-shark-quest">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pull-shark-gold.png" width="95px" alt="Pull Shark Gold" /><br />
           <b>Pull Shark</b><br />
-          <sub>🥇 Ouro (+1.230 PRs)</sub>
+          <sub>🥇 Ouro (+1.290 PRs)</sub>
         </a>
       </td>
       <td align="center" width="20%">
@@ -46,7 +46,7 @@
         <a href="https://github.com/q1-by-taco/pull-shark-quest">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pair-extraordinaire.png" width="95px" alt="Pair Extraordinaire" /><br />
           <b>Pair Extraordinaire</b><br />
-          <sub>👯 Tier 4 (48 Co-Authors)</sub>
+          <sub>👯 Tier 4 (48/48 Co-Authors)</sub>
         </a>
       </td>
       <td align="center" width="20%">
@@ -66,7 +66,8 @@
 
 Liderança técnica e arquitetura de sistemas autônomos na organização **[Q1 by TACO](https://github.com/q1-by-taco)**:
 
-* ⚡ **[`context-eval-engine`](https://github.com/q1-by-taco/context-eval-engine)** — Servidor oficial Model Context Protocol (MCP) e motor de avaliação de contexto com testes CI automatizados e pacote PEP 621 para PyPI.
+* ⚡ **[`gemini-antigravity-hub`](https://github.com/q1-by-taco/gemini-antigravity-hub)** — Repositório de referência para fluxos de trabalho autônomos, otimização de 2M de tokens e soberania técnica com Google Gemini & Antigravity IDE.
+* 🛡️ **[`context-eval-engine`](https://github.com/q1-by-taco/context-eval-engine)** — Servidor oficial Model Context Protocol (MCP) e motor de avaliação de contexto com testes CI automatizados e pacote PEP 621 para PyPI.
 * 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de engenharia com 128 PRs verificados por assinaturas Ed25519 e discussões técnicas ativas.
 * 💎 **[`prompt-engineering-corpus`](https://github.com/kreftamarcio/prompt-engineering-corpus)** — O primeiro framework e manifesto aberto de **Context Engineering (Gen 4)** com 1.024 receitas e compilador CLI.
 
