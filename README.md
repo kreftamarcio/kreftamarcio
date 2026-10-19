@@ -101,6 +101,9 @@ Desenvolvimento de Software & DevOps:
 
 ---
 
+> [!NOTE]
+> **Aviso de Marcas Registradas & Pesquisa Independente:** As marcas citadas neste perfil ("Google", "Gemini", "GitHub", "Python", etc.) são de propriedade exclusiva de seus respectivos titulares. Minha atuação como desenvolvedor e pesquisador de IA é estritamente **independente**, inexistindo relação de patrocínio, representação comercial, propaganda ou vínculo formal com a Google LLC ou demais corporações. Menções a ferramentas e modelos ocorrem para identificação técnica e de interoperabilidade (Art. 132, IV da Lei nº 9.279/1996).
+
 <div align="center">
   <sub>Constante evolução guiada por evidências técnicas, rigor prático e inteligência artificial responsável.</sub>
 </div>
