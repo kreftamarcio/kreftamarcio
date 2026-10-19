@@ -66,21 +66,26 @@
 
 Liderança técnica e arquitetura de sistemas autônomos na organização **[Q1 by TACO](https://github.com/q1-by-taco)**:
 
-* ⚡ **[`gemini-antigravity-hub`](https://github.com/q1-by-taco/gemini-antigravity-hub)** — Repositório de referência para fluxos de trabalho autônomos, otimização de 2M de tokens e soberania técnica com Google Gemini & Antigravity IDE.
+* ⚡ **[`gemini-antigravity-hub`](https://github.com/q1-by-taco/gemini-antigravity-hub)** — Repositório de referência de código aberto para fluxos de trabalho autônomos, engenharia de contexto e exploração das capacidades de 2M de tokens para a comunidade.
 * 🛡️ **[`context-eval-engine`](https://github.com/q1-by-taco/context-eval-engine)** — Servidor oficial Model Context Protocol (MCP) e motor de avaliação de contexto com testes CI automatizados e pacote PEP 621 para PyPI.
 * 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de engenharia com 128 PRs verificados por assinaturas Ed25519 e discussões técnicas ativas.
 * 💎 **[`prompt-engineering-corpus`](https://github.com/kreftamarcio/prompt-engineering-corpus)** — O primeiro framework e manifesto aberto de **Context Engineering (Gen 4)** com 1.024 receitas e compilador CLI.
 
 ---
 
-### 🚀 Sobre Mim & Arquitetura de IA
+### 🚀 Sobre Mim & Minha Paixão por IA
 
-Profissional dedicado ao ecossistema **Google Gemini / Antigravity IDE**, com foco em **Arquitetura e Otimização de Prompts**, desenvolvimento de agentes autônomos e sistemas com **tolerância zero a alucinações**:
+Sou um desenvolvedor de software independente e um **entusiasta apaixonado pelo ecossistema Google Gemini e Antigravity IDE**. 
 
-- ⚡ **Google Gemini & Antigravity IDE**: Desenvolvimento avançado explorando janelas massivas de contexto (até 2M tokens), multimodalidade nativa (código, texto, diagramas) e modelos Flash para orquestração ágil de fluxos de trabalho.
-- 🛡️ **Arquitetura Anti-Alucinação (Evidence-First)**: Implementação de pipelines baseados no princípio *Verification Before Completion* — onde nenhuma asserção é aceita sem teste automatizado, evidência de execução e validação factual.
-- 🧠 **Context Architecture & Token Economy**: Modelagem de meta-prompts determinísticos, raciocínio estruturado (Chain-of-Thought, ReAct) e compressão semântica para eficiência máxima de custos e taxa de processamento.
-- 🔌 **Model Context Protocol (MCP) & Tool Calling**: Integração segura de ferramentas de ambiente (Git, filesystem, terminais e APIs REST) para autonomia controlada de modelos de linguagem.
+> [!NOTE]
+> **Esclarecimento de Identidade e Transparência:**  
+> **Não sou funcionário da Google e não possuo parcerias comerciais com a Google.** Sou apenas um amante e explorador dessa tecnologia, fascinado pela janela massiva de contexto (2M de tokens) e pela capacidade de orquestração autônoma que o Gemini oferece à comunidade de código aberto.
+
+Minhas frentes de estudo e prática independente:
+- ⚡ **Exploração Aberta do Google Gemini & Antigravity**: Desenvolvimento de fluxos de trabalho explorando o processamento em larga escala, multimodalidade e velocidade dos modelos Flash.
+- 🛡️ **Arquitetura Anti-Alucinação (Evidence-First)**: Implementação de pipelines onde nenhuma conclusão é aceita sem teste automatizado, prova de execução e validação factual.
+- 🧠 **Context Architecture & Token Economy**: Modelagem de meta-prompts determinísticos, raciocínio estruturado e compressão semântica para eficiência máxima.
+- 🔌 **Model Context Protocol (MCP) & Tool Calling**: Integração segura de ferramentas (Git, terminal, APIs) para autonomia controlada.
 
 ---
 
