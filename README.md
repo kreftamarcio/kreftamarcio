@@ -1,4 +1,4 @@
-# ⚡ Marcio Krefta — Especialista em IA & Arquitetura de Prompts
+# ⚡ Marcio Krefta — Engenheiro de Prompt & Especialista em IA
 
 <div align="center">
 
@@ -75,7 +75,7 @@ Liderança técnica e arquitetura de sistemas autônomos na organização **[Q1 
 
 ### 🚀 Sobre Mim & Minha Paixão por IA
 
-Sou um desenvolvedor de software independente e um **entusiasta apaixonado pelo ecossistema Google Gemini e Antigravity IDE**. 
+Sou um engenheiro de prompt independente e um **entusiasta apaixonado pelo ecossistema Google Gemini e Antigravity IDE**. 
 
 > [!NOTE]
 > **Esclarecimento de Identidade e Transparência:**  
@@ -98,7 +98,7 @@ Inteligência Artificial & Arquitetura de Contexto:
   Controle Anti-Alucinação: [Verification Loops, Grounding Estrito, JSON Schema Enforcement]
   Otimização: [Prefix Caching (>85% KV-cache hit), Token Economy, Delimiter Cryptography]
 
-Desenvolvimento de Software & DevOps:
+Engenharia de Prompt, Tooling & DevOps:
   Linguagens: [Python 3.12+, TypeScript, Node 22, Bash]
   Ferramentas: [Google Antigravity IDE, Docker, GitHub Actions, Linux/Debian/Ubuntu]
   Padrões: [TDD, SDD, CI/CD Automatizado, Defesa em Profundidade contra Prompt Injection]
@@ -107,7 +107,7 @@ Desenvolvimento de Software & DevOps:
 ---
 
 > [!NOTE]
-> **Aviso de Marcas Registradas & Pesquisa Independente:** As marcas citadas neste perfil ("Google", "Gemini", "GitHub", "Python", etc.) são de propriedade exclusiva de seus respectivos titulares. Minha atuação como desenvolvedor e pesquisador de IA é estritamente **independente**, inexistindo relação de patrocínio, representação comercial, propaganda ou vínculo formal com a Google LLC ou demais corporações. Menções a ferramentas e modelos ocorrem para identificação técnica e de interoperabilidade (Art. 132, IV da Lei nº 9.279/1996).
+> **Aviso de Marcas Registradas & Pesquisa Independente:** As marcas citadas neste perfil ("Google", "Gemini", "GitHub", "Python", etc.) são de propriedade exclusiva de seus respectivos titulares. Minha atuação como engenheiro de prompt e pesquisador de IA é estritamente **independente**, inexistindo relação de patrocínio, representação comercial, propaganda ou vínculo formal com a Google LLC ou demais corporações. Menções a ferramentas e modelos ocorrem para identificação técnica e de interoperabilidade (Art. 132, IV da Lei nº 9.279/1996).
 
 <div align="center">
   <sub>Constante evolução guiada por evidências técnicas, rigor prático e inteligência artificial responsável.</sub>
