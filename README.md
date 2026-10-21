@@ -60,6 +60,10 @@
   </table>
 </div>
 
+<p align="center">
+  <sub>🛡️ <b>Fundamentação Metodológica, Ética & Boa-Fé:</b> Conquistas alcançadas e homologadas através de estudo empírico de concorrência em CI/CD, agentes autônomos e engenharia de contexto. Consulte o <a href="https://github.com/q1-by-taco/pull-shark-quest/blob/main/docs/AUTONOMOUS_CI_CD_BENCHMARK_REPORT.md"><b>Relatório Técnico de Benchmarking de CI/CD</b></a>.</sub>
+</p>
+
 ---
 
 ### 🏢 Organização Oficial: [Q1 by TACO](https://github.com/q1-by-taco)
