@@ -1,14 +1,12 @@
 {
   "name": "kreftamarcio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Marcio Krefta - GitHub Profile & AI Systems Hub",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "typecheck": "tsc --noEmit",
-    "lint": "eslint src/ --ext .ts"
+    "test": "node --test test/*.test.mjs"
   },
   "devDependencies": {
     "typescript": "^5.0.0",

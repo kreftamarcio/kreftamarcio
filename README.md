@@ -1,4 +1,4 @@
-# ⚡ Marcio Krefta — Engenheiro de Prompt & Especialista em IA
+# ⚡ Marcio Krefta — Especialista em IA & Desenvolvedor de Software (Autodidata)
 
 <div align="center">
 
@@ -23,9 +23,9 @@
     <tr>
       <td align="center" width="20%">
         <a href="https://github.com/q1-by-taco/pull-shark-quest">
-          <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pull-shark-gold.png" width="95px" alt="Pull Shark Gold" /><br />
+          <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pull-shark-gold.png" width="95px" alt="Pull Shark" /><br />
           <b>Pull Shark</b><br />
-          <sub>🥇 Ouro (+1.290 PRs)</sub>
+          <sub>🦈 Homologado (+128 PRs)</sub>
         </a>
       </td>
       <td align="center" width="20%">
@@ -39,14 +39,14 @@
         <a href="https://github.com/q1-by-taco/pull-shark-quest/pull/2">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/yolo.png" width="95px" alt="YOLO" /><br />
           <b>YOLO</b><br />
-          <sub>🚀 No Review Merge</sub>
+          <sub>🚀 No-Review Merge</sub>
         </a>
       </td>
       <td align="center" width="20%">
         <a href="https://github.com/q1-by-taco/pull-shark-quest">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pair-extraordinaire.png" width="95px" alt="Pair Extraordinaire" /><br />
           <b>Pair Extraordinaire</b><br />
-          <sub>👯 Tier 4 (48/48 Co-Authors)</sub>
+          <sub>👯 Tier 4 (Co-Autoria Homologada)</sub>
         </a>
       </td>
       <td align="center" width="20%">
@@ -66,20 +66,23 @@
 
 ---
 
-### 🏢 Organização Oficial: [Q1 by TACO](https://github.com/q1-by-taco)
+### 🏢 Organizações Oficiais no GitHub
 
-Liderança técnica e arquitetura de sistemas autônomos na organização **[Q1 by TACO](https://github.com/q1-by-taco)**:
+* ⚡ **[Q1 by TACO](https://github.com/q1-by-taco)** — Pesquisa aplicada em Inteligência Artificial, Model Context Protocol (MCP), esteiras autônomas de CI/CD e arquitetura de contexto.
+* 🏛️ **[TACO Assessoria de Comunicação](https://github.com/TACO-Assessoria-de-Comunicacao)** — Comunicação estratégica, relações institucionais, governança de marca e compliance digital.
+
+#### Repositórios em Destaque & Produção Técnica:
 
 * ⚡ **[`gemini-antigravity-hub`](https://github.com/q1-by-taco/gemini-antigravity-hub)** — Repositório de referência de código aberto para fluxos de trabalho autônomos, engenharia de contexto e exploração das capacidades de 2M de tokens para a comunidade.
 * 🛡️ **[`context-eval-engine`](https://github.com/q1-by-taco/context-eval-engine)** — Servidor oficial Model Context Protocol (MCP) e motor de avaliação de contexto com testes CI automatizados e pacote PEP 621 para PyPI.
-* 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de engenharia com 128 PRs verificados por assinaturas Ed25519 e discussões técnicas ativas.
-* 💎 **[`prompt-engineering-corpus`](https://github.com/kreftamarcio/prompt-engineering-corpus)** — O primeiro framework e manifesto aberto de **Context Engineering (Gen 4)** com 1.024 receitas e compilador CLI.
+* 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de engenharia com 128+ PRs atômicos verificados por assinaturas criptográficas Ed25519 e discussões técnicas ativas.
+* 💎 **[`prompt-engineering-corpus`](https://github.com/kreftamarcio/prompt-engineering-corpus)** — Framework e manifesto aberto de **Context Engineering (Gen 4)** com 1.024 receitas modulares e compilador CLI.
 
 ---
 
 ### 🚀 Sobre Mim & Minha Paixão por IA
 
-Sou um engenheiro de prompt independente e um **entusiasta apaixonado pelo ecossistema Google Gemini e Antigravity IDE**. 
+Sou um desenvolvedor e pesquisador independente de IA (autodidata), especialista em arquitetura de contexto e um **entusiasta apaixonado pelo ecossistema Google Gemini e Antigravity IDE**. 
 
 > [!NOTE]
 > **Esclarecimento de Identidade e Transparência:**  
@@ -102,7 +105,7 @@ Inteligência Artificial & Arquitetura de Contexto:
   Controle Anti-Alucinação: [Verification Loops, Grounding Estrito, JSON Schema Enforcement]
   Otimização: [Prefix Caching (>85% KV-cache hit), Token Economy, Delimiter Cryptography]
 
-Engenharia de Prompt, Tooling & DevOps:
+Desenvolvimento de Software, Tooling & DevOps:
   Linguagens: [Python 3.12+, TypeScript, Node 22, Bash]
   Ferramentas: [Google Antigravity IDE, Docker, GitHub Actions, Linux/Debian/Ubuntu]
   Padrões: [TDD, SDD, CI/CD Automatizado, Defesa em Profundidade contra Prompt Injection]
@@ -111,7 +114,7 @@ Engenharia de Prompt, Tooling & DevOps:
 ---
 
 > [!NOTE]
-> **Aviso de Marcas Registradas & Pesquisa Independente:** As marcas citadas neste perfil ("Google", "Gemini", "GitHub", "Python", etc.) são de propriedade exclusiva de seus respectivos titulares. Minha atuação como engenheiro de prompt e pesquisador de IA é estritamente **independente**, inexistindo relação de patrocínio, representação comercial, propaganda ou vínculo formal com a Google LLC ou demais corporações. Menções a ferramentas e modelos ocorrem para identificação técnica e de interoperabilidade (Art. 132, IV da Lei nº 9.279/1996).
+> **Aviso de Marcas Registradas & Pesquisa Independente:** As marcas citadas neste perfil ("Google", "Gemini", "GitHub", "Python", etc.) são de propriedade exclusiva de seus respectivos titulares. Minha atuação como desenvolvedor e pesquisador independente de IA é estritamente **independente**, inexistindo relação de patrocínio, representação comercial, propaganda ou vínculo formal com a Google LLC ou demais corporações. Menções a ferramentas e modelos ocorrem para identificação técnica e de interoperabilidade (Art. 132, IV da Lei nº 9.279/1996).
 
 <div align="center">
   <sub>Constante evolução guiada por evidências técnicas, rigor prático e inteligência artificial responsável.</sub>
