@@ -1,4 +1,4 @@
-# ⚡ Marcio Krefta — Especialista em IA & Desenvolvedor de Software (Autodidata)
+# ⚡ Marcio Krefta — Desenvolvedor de Software
 
 <div align="center">
 
@@ -9,7 +9,7 @@
 [![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%2F%20Debian-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
 
 <p align="center">
-  <b>Arquitetura de Contexto • Sistemas Autônomos • Engenharia Anti-Alucinação • Model Context Protocol</b>
+  <b>Arquitetura de Sistemas • Model Context Protocol • Automação de CI/CD • Código Aberto</b>
 </p>
 
 </div>
