@@ -68,7 +68,7 @@
 
 ### 🏢 Organizações Oficiais no GitHub
 
-* ⚡ **[Q1 by TACO](https://github.com/q1-by-taco)** — Pesquisa aplicada em Inteligência Artificial, Model Context Protocol (MCP), esteiras autônomas de CI/CD e arquitetura de contexto.
+* ⚡ **[Q1 by TACO](https://github.com/q1-by-taco)** — Iniciativa de P&D em Inteligência Artificial (Estágio Pré-Seed / Marco Legal das Startups LC 182/2021) • Pesquisa aplicada, Model Context Protocol (MCP), esteiras autônomas de CI/CD e arquitetura de contexto.
 * 🏛️ **[TACO Assessoria de Comunicação](https://github.com/TACO-Assessoria-de-Comunicacao)** — Comunicação estratégica, relações institucionais, governança de marca e compliance digital.
 
 #### Repositórios em Destaque & Produção Técnica:
