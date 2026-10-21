@@ -25,7 +25,9 @@ jobs:
           node-version: 20
 
       - name: Verify TypeScript Compilation
-        run: npx --yes typescript@^5.0.0 tsc --noEmit
+        run: |
+          npm install -g typescript
+          tsc --noEmit
 
       - name: Verify Markdown Links Reachability
         run: |
