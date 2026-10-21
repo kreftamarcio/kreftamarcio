@@ -9,7 +9,8 @@
 [![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%2F%20Debian-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
 
 <p align="center">
-  <b>Arquitetura de Sistemas • Model Context Protocol • Automação de CI/CD • Código Aberto</b>
+  <b>Arquitetura de Sistemas • Model Context Protocol • Automação de CI/CD • Código Aberto</b><br />
+  <sub>✨ <i>"Seja Luz e Transmita Amor!"</i> ✨</sub>
 </p>
 
 </div>
@@ -111,5 +112,6 @@ Desenvolvimento de Software, Tooling & DevOps:
 > **Aviso de Marcas Registradas & Pesquisa Independente:** As marcas citadas neste perfil ("GitHub", "Python", "Docker", "Linux", "TypeScript", etc.) são de propriedade exclusiva de seus respectivos titulares. A atuação técnica é estritamente **independente**, inexistindo relação de patrocínio, representação comercial, propaganda ou vínculo formal com corporações mantenedoras de ferramentas. Menções a especificações ocorrem para fins de identificação técnica e de interoperabilidade (Art. 132, IV da Lei nº 9.279/1996).
 
 <div align="center">
+  <p>✨ <b>Seja Luz e Transmita Amor!</b> ✨</p>
   <sub>Constante evolução guiada por evidências técnicas, rigor prático e engenharia de software responsável.</sub>
 </div>
