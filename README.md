@@ -4,12 +4,12 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-Pro%20%2F%20Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Model Context Protocol](https://img.shields.io/badge/Protocol-MCP%20JSON--RPC%202.0-3178C6?style=for-the-badge&logo=json&logoColor=white)](https://modelcontextprotocol.io)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 [![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%2F%20Debian-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
 
 <p align="center">
-  <b>Google Gemini • Antigravity IDE • Arquitetura Anti-Alucinação • Model Context Protocol</b>
+  <b>Arquitetura de Contexto • Sistemas Autônomos • Engenharia Anti-Alucinação • Model Context Protocol</b>
 </p>
 
 </div>
@@ -66,33 +66,27 @@
 
 ---
 
-### 🏢 Organizações Oficiais no GitHub
+### 🏢 Organizações Associadas no GitHub
 
 * ⚡ **[Q1 by TACO](https://github.com/q1-by-taco)** — Iniciativa de P&D em Inteligência Artificial (Estágio Pré-Seed / Marco Legal das Startups LC 182/2021) • Pesquisa aplicada, Model Context Protocol (MCP), esteiras autônomas de CI/CD e arquitetura de contexto.
 * 🏛️ **[TACO Assessoria de Comunicação](https://github.com/TACO-Assessoria-de-Comunicacao)** — Comunicação estratégica, relações institucionais, governança de marca e compliance digital.
 
 #### Repositórios em Destaque & Produção Técnica:
 
-* ⚡ **[`gemini-antigravity-hub`](https://github.com/q1-by-taco/gemini-antigravity-hub)** — Repositório de referência de código aberto para fluxos de trabalho autônomos, engenharia de contexto e exploração das capacidades de 2M de tokens para a comunidade.
-* 🛡️ **[`context-eval-engine`](https://github.com/q1-by-taco/context-eval-engine)** — Servidor oficial Model Context Protocol (MCP) e motor de avaliação de contexto com testes CI automatizados e pacote PEP 621 para PyPI.
+* 🛡️ **[`context-eval-engine`](https://github.com/q1-by-taco/context-eval-engine)** — Servidor oficial Model Context Protocol (MCP) e motor de avaliação determinística de contexto com testes CI contínuos e pacote PEP 621.
 * 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de engenharia com 128+ PRs atômicos verificados por assinaturas criptográficas Ed25519 e discussões técnicas ativas.
 * 💎 **[`prompt-engineering-corpus`](https://github.com/kreftamarcio/prompt-engineering-corpus)** — Framework e manifesto aberto de **Context Engineering (Gen 4)** com 1.024 receitas modulares e compilador CLI.
 
 ---
 
-### 🚀 Sobre Mim & Minha Paixão por IA
+### 🔬 Escopo Técnico & Engenharia de Sistemas
 
-Sou um desenvolvedor e pesquisador independente de IA (autodidata), especialista em arquitetura de contexto e um **entusiasta apaixonado pelo ecossistema Google Gemini e Antigravity IDE**. 
+Atuação técnica e pesquisa independente voltada ao desenvolvimento de infraestrutura de software e sistemas de inteligência artificial determinísticos:
 
-> [!NOTE]
-> **Esclarecimento de Identidade e Transparência:**  
-> **Não sou funcionário da Google e não possuo parcerias comerciais com a Google.** Sou apenas um amante e explorador dessa tecnologia, fascinado pela janela massiva de contexto (2M de tokens) e pela capacidade de orquestração autônoma que o Gemini oferece à comunidade de código aberto.
-
-Minhas frentes de estudo e prática independente:
-- ⚡ **Exploração Aberta do Google Gemini & Antigravity**: Desenvolvimento de fluxos de trabalho explorando o processamento em larga escala, multimodalidade e velocidade dos modelos Flash.
-- 🛡️ **Arquitetura Anti-Alucinação (Evidence-First)**: Implementação de pipelines onde nenhuma conclusão é aceita sem teste automatizado, prova de execução e validação factual.
-- 🧠 **Context Architecture & Token Economy**: Modelagem de meta-prompts determinísticos, raciocínio estruturado e compressão semântica para eficiência máxima.
-- 🔌 **Model Context Protocol (MCP) & Tool Calling**: Integração segura de ferramentas (Git, terminal, APIs) para autonomia controlada.
+- 🛡️ **Arquitetura Anti-Alucinação (Evidence-First):** Implementação de esteiras de validação formal em que conclusões dependem estritamente de testes automatizados, provas de execução e checagem factual em tempo de execução.
+- 🔌 **Model Context Protocol (MCP) & Tool Calling:** Arquitetura de barramento desacoplada (JSON-RPC 2.0) para orquestração segura de agentes autônomos integrados a ferramentas de terminal, controle de versão e APIs externas.
+- 🧠 **Arquitetura de Contexto & Economia de Tokens:** Modelagem de meta-estruturas determinísticas, raciocínio delimitado e compressão semântica para mitigação de ruído e maximização de eficiência de inferência.
+- ⚡ **DevOps & Automação CI/CD:** Pipelines de concorrência com verificação estática de tipos, varredura de vulnerabilidades (SAST/Secret Scanning) e assinaturas criptográficas.
 
 ---
 
@@ -100,22 +94,22 @@ Minhas frentes de estudo e prática independente:
 
 ```yaml
 Inteligência Artificial & Arquitetura de Contexto:
-  Modelos: [Google Gemini 1.5/2.0 Pro & Flash, Claude 3.5 Sonnet, GPT-4o, DeepSeek-R1]
-  Frameworks: [Model Context Protocol (MCP), Google Genkit, Pydantic AI, Promptfoo, DSPy]
+  Modelos: [LLMs de Fronteira, Modelos Raciocinadores, APIs Multimodais]
+  Protocolos & Frameworks: [Model Context Protocol (MCP), Pydantic AI, Promptfoo, DSPy]
   Controle Anti-Alucinação: [Verification Loops, Grounding Estrito, JSON Schema Enforcement]
   Otimização: [Prefix Caching (>85% KV-cache hit), Token Economy, Delimiter Cryptography]
 
 Desenvolvimento de Software, Tooling & DevOps:
   Linguagens: [Python 3.12+, TypeScript, Node 22, Bash]
-  Ferramentas: [Google Antigravity IDE, Docker, GitHub Actions, Linux/Debian/Ubuntu]
+  Ferramentas: [Docker, GitHub Actions, Linux/Debian/Ubuntu, Git CLI]
   Padrões: [TDD, SDD, CI/CD Automatizado, Defesa em Profundidade contra Prompt Injection]
 ```
 
 ---
 
 > [!NOTE]
-> **Aviso de Marcas Registradas & Pesquisa Independente:** As marcas citadas neste perfil ("Google", "Gemini", "GitHub", "Python", etc.) são de propriedade exclusiva de seus respectivos titulares. Minha atuação como desenvolvedor e pesquisador independente de IA é estritamente **independente**, inexistindo relação de patrocínio, representação comercial, propaganda ou vínculo formal com a Google LLC ou demais corporações. Menções a ferramentas e modelos ocorrem para identificação técnica e de interoperabilidade (Art. 132, IV da Lei nº 9.279/1996).
+> **Aviso de Marcas Registradas & Pesquisa Independente:** As marcas citadas neste perfil ("GitHub", "Python", "Docker", "Linux", "TypeScript", etc.) são de propriedade exclusiva de seus respectivos titulares. A atuação técnica é estritamente **independente**, inexistindo relação de patrocínio, representação comercial, propaganda ou vínculo formal com corporações mantenedoras de ferramentas. Menções a especificações ocorrem para fins de identificação técnica e de interoperabilidade (Art. 132, IV da Lei nº 9.279/1996).
 
 <div align="center">
-  <sub>Constante evolução guiada por evidências técnicas, rigor prático e inteligência artificial responsável.</sub>
+  <sub>Constante evolução guiada por evidências técnicas, rigor prático e engenharia de software responsável.</sub>
 </div>
