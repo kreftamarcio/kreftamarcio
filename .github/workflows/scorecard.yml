@@ -1,5 +1,4 @@
 name: Scorecard supply-chain security
-name: Scorecard analysis
 on:
   branch_protection_rule:
   schedule:
