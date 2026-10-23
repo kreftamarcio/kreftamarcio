@@ -1,4 +1,4 @@
-# ⚡ Marcio Krefta — Desenvolvedor de Software
+# ⚡ Marcio Krefta
 
 <div align="center">
 
@@ -9,9 +9,8 @@
 [![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%2F%20Debian-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kreftamarcio/kreftamarcio/badge)](https://securityscorecards.dev/viewer/?repo=github.com/kreftamarcio/kreftamarcio)
 
-
 <p align="center">
-  <b>Arquitetura de Sistemas • Model Context Protocol • Automação de CI/CD • Código Aberto</b><br />
+  <b>Estudante Universitário de ADS • Autodidata em Desenvolvimento de Software com IA • Engenharia de Prompt</b><br />
   <sub>✨ <i>"Seja Luz e Transmita Amor!"</i> ✨</sub>
 </p>
 
@@ -64,7 +63,7 @@
 </div>
 
 <p align="center">
-  <sub>🛡️ <b>Fundamentação Metodológica, Ética & Boa-Fé:</b> Conquistas alcançadas e homologadas através de estudo empírico de concorrência em CI/CD, agentes autônomos e engenharia de contexto. Consulte o <a href="https://github.com/q1-by-taco/pull-shark-quest/blob/main/docs/AUTONOMOUS_CI_CD_BENCHMARK_REPORT.md"><b>Relatório Técnico de Benchmarking de CI/CD</b></a>.</sub>
+  <sub>🛡️ <b>Fundamentação Metodológica, Ética & Boa-Fé:</b> Conquistas alcançadas e homologadas através de estudo empírico de concorrência em CI/CD, agentes autônomos e arquitetura de contexto / engenharia de prompt. Consulte o <a href="https://github.com/q1-by-taco/pull-shark-quest/blob/main/docs/AUTONOMOUS_CI_CD_BENCHMARK_REPORT.md"><b>Relatório Técnico de Benchmarking de CI/CD</b></a>.</sub>
 </p>
 
 ---
@@ -77,18 +76,18 @@
 #### Repositórios em Destaque & Produção Técnica:
 
 * 🛡️ **[`context-eval-engine`](https://github.com/q1-by-taco/context-eval-engine)** — Servidor oficial Model Context Protocol (MCP) e motor de avaliação determinística de contexto com testes CI contínuos e pacote PEP 621.
-* 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de engenharia com 128+ PRs atômicos verificados por assinaturas criptográficas Ed25519 e discussões técnicas ativas.
-* 💎 **[`prompt-engineering-corpus`](https://github.com/kreftamarcio/prompt-engineering-corpus)** — Framework e manifesto aberto de **Context Engineering (Gen 4)** com 1.024 receitas modulares e compilador CLI.
+* 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de testes com 128+ PRs atômicos verificados por assinaturas criptográficas Ed25519 e discussões técnicas ativas.
+* 💎 **[`prompt-engineering-corpus`](https://github.com/kreftamarcio/prompt-engineering-corpus)** — Framework e manifesto aberto de **Engenharia de Prompt & Arquitetura de Contexto (Gen 4)** com 1.024 receitas modulares e compilador CLI.
 
 ---
 
-### 🔬 Escopo Técnico & Engenharia de Sistemas
+### 🔬 Escopo Técnico & Desenvolvimento de Software
 
-Atuação técnica e pesquisa independente voltada ao desenvolvimento de infraestrutura de software e sistemas de inteligência artificial determinísticos:
+Atuação técnica como estudante universitário de Análise e Desenvolvimento de Sistemas (ADS), pesquisador independente e desenvolvedor autodidata em software orientado a inteligência artificial:
 
 - 🛡️ **Arquitetura Anti-Alucinação (Evidence-First):** Implementação de esteiras de validação formal em que conclusões dependem estritamente de testes automatizados, provas de execução e checagem factual em tempo de execução.
 - 🔌 **Model Context Protocol (MCP) & Tool Calling:** Arquitetura de barramento desacoplada (JSON-RPC 2.0) para orquestração segura de agentes autônomos integrados a ferramentas de terminal, controle de versão e APIs externas.
-- 🧠 **Arquitetura de Contexto & Economia de Tokens:** Modelagem de meta-estruturas determinísticas, raciocínio delimitado e compressão semântica para mitigação de ruído e maximização de eficiência de inferência.
+- 🧠 **Engenharia de Prompt & Economia de Tokens:** Modelagem de meta-estruturas determinísticas, raciocínio delimitado e compressão semântica para mitigação de ruído e maximização de eficiência de inferência.
 - ⚡ **DevOps & Automação CI/CD:** Pipelines de concorrência com verificação estática de tipos, varredura de vulnerabilidades (SAST/Secret Scanning) e assinaturas criptográficas.
 
 ---
@@ -96,7 +95,7 @@ Atuação técnica e pesquisa independente voltada ao desenvolvimento de infraes
 ### 🛠️ Stack Tecnológica & Especialidades
 
 ```yaml
-Inteligência Artificial & Arquitetura de Contexto:
+Inteligência Artificial, Engenharia de Prompt & Contexto:
   Modelos: [LLMs de Fronteira, Modelos Raciocinadores, APIs Multimodais]
   Protocolos & Frameworks: [Model Context Protocol (MCP), Pydantic AI, Promptfoo, DSPy]
   Controle Anti-Alucinação: [Verification Loops, Grounding Estrito, JSON Schema Enforcement]
@@ -115,5 +114,5 @@ Desenvolvimento de Software, Tooling & DevOps:
 
 <div align="center">
   <p>✨ <b>Seja Luz e Transmita Amor!</b> ✨</p>
-  <sub>Constante evolução guiada por evidências técnicas, rigor prático e engenharia de software responsável.</sub>
+  <sub>Constante evolução guiada por evidências técnicas, rigor prático e desenvolvimento de software responsável.</sub>
 </div>
