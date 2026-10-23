@@ -7,6 +7,8 @@
 [![Model Context Protocol](https://img.shields.io/badge/Protocol-MCP%20JSON--RPC%202.0-3178C6?style=for-the-badge&logo=json&logoColor=white)](https://modelcontextprotocol.io)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 [![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%2F%20Debian-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kreftamarcio/kreftamarcio/badge)](https://securityscorecards.dev/viewer/?repo=github.com/kreftamarcio/kreftamarcio)
+
 
 <p align="center">
   <b>Arquitetura de Sistemas • Model Context Protocol • Automação de CI/CD • Código Aberto</b><br />
