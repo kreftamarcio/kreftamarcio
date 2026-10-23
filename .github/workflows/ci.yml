@@ -30,8 +30,8 @@ jobs:
 
       - name: Verify TypeScript Compilation
         run: |
-          npm install -g typescript
-          tsc --noEmit
+          npm install
+          npx tsc --noEmit
 
       - name: Verify Markdown Links Reachability
         run: |
