@@ -18,44 +18,44 @@
 
 ---
 
-### 🏆 Conquistas & Selos Oficiais no GitHub (Nível Máximo Homologado)
+### 🏆 Conquistas no GitHub (conferíveis no perfil oficial)
 
 <div align="center">
   <table>
     <tr>
       <td align="center" width="20%">
-        <a href="https://github.com/q1-by-taco/pull-shark-quest">
+        <a href="https://github.com/kreftamarcio?achievement=pull-shark&amp;tab=achievements">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pull-shark-gold.png" width="95px" alt="Pull Shark" /><br />
           <b>Pull Shark</b><br />
-          <sub>🦈 Homologado (+128 PRs)</sub>
+          <sub>🦈 1.024+ PRs mergeados</sub>
         </a>
       </td>
       <td align="center" width="20%">
-        <a href="https://github.com/q1-by-taco/pull-shark-quest/issues/1">
+        <a href="https://github.com/kreftamarcio?achievement=quickdraw&amp;tab=achievements">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/quickdraw.png" width="95px" alt="Quickdraw" /><br />
           <b>Quickdraw</b><br />
           <sub>⚡ &lt; 5 Minutos</sub>
         </a>
       </td>
       <td align="center" width="20%">
-        <a href="https://github.com/q1-by-taco/pull-shark-quest/pull/2">
+        <a href="https://github.com/kreftamarcio?achievement=yolo&amp;tab=achievements">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/yolo.png" width="95px" alt="YOLO" /><br />
           <b>YOLO</b><br />
           <sub>🚀 No-Review Merge</sub>
         </a>
       </td>
       <td align="center" width="20%">
-        <a href="https://github.com/q1-by-taco/pull-shark-quest">
+        <a href="https://github.com/kreftamarcio?achievement=pair-extraordinaire&amp;tab=achievements">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pair-extraordinaire.png" width="95px" alt="Pair Extraordinaire" /><br />
           <b>Pair Extraordinaire</b><br />
-          <sub>👯 Tier 4 (Co-Autoria Homologada)</sub>
+          <sub>👯 48 PRs em co-autoria (humano + agente)</sub>
         </a>
       </td>
       <td align="center" width="20%">
-        <a href="https://github.com/q1-by-taco/pull-shark-quest/discussions">
+        <a href="https://github.com/kreftamarcio?achievement=galaxy-brain&amp;tab=achievements">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/galaxy-brain.png" width="95px" alt="Galaxy Brain" /><br />
           <b>Galaxy Brain</b><br />
-          <sub>🧠 Tier 4 (32/32 Q&amp;As)</sub>
+          <sub>🧠 33 Q&amp;As respondidas</sub>
         </a>
       </td>
     </tr>
@@ -63,7 +63,7 @@
 </div>
 
 <p align="center">
-  <sub>🛡️ <b>Fundamentação Metodológica, Ética & Boa-Fé:</b> Conquistas alcançadas e homologadas através de estudo empírico de concorrência em CI/CD, agentes autônomos e arquitetura de contexto / engenharia de prompt. Consulte o <a href="https://github.com/q1-by-taco/pull-shark-quest/blob/main/docs/AUTONOMOUS_CI_CD_BENCHMARK_REPORT.md"><b>Relatório Técnico de Benchmarking de CI/CD</b></a>.</sub>
+  <sub>🛡️ <b>Transparência metodológica:</b> conquistas obtidas por automação declarada (PRs, issues e discussões gerados por agente em repositórios próprios; na quest, os commits de branch são assinados via SSH Ed25519), como parte de um estudo de CI/CD e agentes autônomos. Cada selo leva ao painel oficial do GitHub; o passo a passo está no <a href="https://github.com/q1-by-taco/pull-shark-quest">pull-shark-quest</a> e no <a href="https://github.com/q1-by-taco/pull-shark-quest/blob/main/docs/AUTONOMOUS_CI_CD_BENCHMARK_REPORT.md"><b>Relatório Técnico de Benchmarking de CI/CD</b></a>.</sub>
 </p>
 
 ---
