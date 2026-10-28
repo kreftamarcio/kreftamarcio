@@ -18,7 +18,7 @@
 
 ---
 
-### 🏆 Conquistas & Selos Oficiais no GitHub (Nível Máximo Homologado)
+## 🏆 Conquistas & Selos Oficiais no GitHub (Nível Máximo Homologado)
 
 <div align="center">
   <table>
@@ -73,7 +73,7 @@
 * ⚡ **[Q1 by TACO](https://github.com/q1-by-taco)** — Iniciativa de P&D em Inteligência Artificial (Estágio Pré-Seed / Marco Legal das Startups LC 182/2021) • Pesquisa aplicada, Model Context Protocol (MCP), esteiras autônomas de CI/CD e arquitetura de contexto.
 * 🏛️ **[TACO Assessoria de Comunicação](https://github.com/TACO-Assessoria-de-Comunicacao)** — Comunicação estratégica, relações institucionais, governança de marca e compliance digital.
 
-#### Repositórios em Destaque & Produção Técnica:
+#### Repositórios em Destaque & Produção Técnica
 
 * 🛡️ **[`context-eval-engine`](https://github.com/q1-by-taco/context-eval-engine)** — Servidor oficial Model Context Protocol (MCP) e motor de avaliação determinística de contexto com testes CI contínuos e pacote PEP 621.
 * 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de testes com 1.161 PRs atômicos verificados por telemetria e integridade criptográfica SHA-256 (Marco 9x Pull Shark Gold Homologado).
@@ -85,10 +85,10 @@
 
 Atuação técnica como estudante universitário de Análise e Desenvolvimento de Sistemas (ADS), pesquisador independente e desenvolvedor autodidata em software orientado a inteligência artificial:
 
-- 🛡️ **Arquitetura Anti-Alucinação (Evidence-First):** Implementação de esteiras de validação formal em que conclusões dependem estritamente de testes automatizados, provas de execução e checagem factual em tempo de execução.
-- 🔌 **Model Context Protocol (MCP) & Tool Calling:** Arquitetura de barramento desacoplada (JSON-RPC 2.0) para orquestração segura de agentes autônomos integrados a ferramentas de terminal, controle de versão e APIs externas.
-- 🧠 **Engenharia de Prompt & Economia de Tokens:** Modelagem de meta-estruturas determinísticas, raciocínio delimitado e compressão semântica para mitigação de ruído e maximização de eficiência de inferência.
-- ⚡ **DevOps & Automação CI/CD:** Pipelines de concorrência com verificação estática de tipos, varredura de vulnerabilidades (SAST/Secret Scanning) e assinaturas criptográficas.
+* 🛡️ **Arquitetura Anti-Alucinação (Evidence-First):** Implementação de esteiras de validação formal em que conclusões dependem estritamente de testes automatizados, provas de execução e checagem factual em tempo de execução.
+* 🔌 **Model Context Protocol (MCP) & Tool Calling:** Arquitetura de barramento desacoplada (JSON-RPC 2.0) para orquestração segura de agentes autônomos integrados a ferramentas de terminal, controle de versão e APIs externas.
+* 🧠 **Engenharia de Prompt & Economia de Tokens:** Modelagem de meta-estruturas determinísticas, raciocínio delimitado e compressão semântica para mitigação de ruído e maximização de eficiência de inferência.
+* ⚡ **DevOps & Automação CI/CD:** Pipelines de concorrência com verificação estática de tipos, varredura de vulnerabilidades (SAST/Secret Scanning) e assinaturas criptográficas.
 
 ---
 
