@@ -27,7 +27,7 @@
         <a href="https://github.com/q1-by-taco/pull-shark-quest">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pull-shark-gold.png" width="95px" alt="Pull Shark" /><br />
           <b>Pull Shark</b><br />
-          <sub>🦈 9x Gold (1.161 PRs Homologados)</sub>
+          <sub>🦈 Gold Tier 4 / x4 (1.161 PRs Homologados)</sub>
         </a>
       </td>
       <td align="center" width="20%">
@@ -76,7 +76,7 @@
 #### Repositórios em Destaque & Produção Técnica
 
 * 🛡️ **[`context-eval-engine`](https://github.com/q1-by-taco/context-eval-engine)** — Servidor oficial Model Context Protocol (MCP) e motor de avaliação determinística de contexto com testes CI contínuos e pacote PEP 621.
-* 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de testes com 1.161 PRs atômicos verificados por telemetria e integridade criptográfica SHA-256 (Marco 9x Pull Shark Gold Homologado).
+* 🦈 **[`pull-shark-quest`](https://github.com/q1-by-taco/pull-shark-quest)** — Matriz autônoma de testes com 1.161 PRs atômicos verificados por telemetria e integridade criptográfica SHA-256 (Marco Pull Shark Gold Tier 4 / x4 Homologado).
 * 💎 **[`prompt-engineering-corpus`](https://github.com/kreftamarcio/prompt-engineering-corpus)** — Framework e manifesto aberto de **Engenharia de Prompt & Arquitetura de Contexto (Gen 4)** com 1.024 receitas modulares e compilador CLI.
 
 ---
