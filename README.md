@@ -10,9 +10,18 @@
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kreftamarcio/kreftamarcio/badge)](https://securityscorecards.dev/viewer/?repo=github.com/kreftamarcio/kreftamarcio)
 
 <p align="center">
-  <b>Estudante Universitário de ADS • Autodidata em Desenvolvimento de Software com IA • Engenharia de Prompt</b><br />
+  <b>Desenvolvedor Python Especialista • AI Systems & Data Architect • Model Context Protocol (MCP) • PcD</b><br />
+  <sub>Estudante de ADS (Centro Universitário ETEP) • Florianópolis, SC (Remoto Global)</sub><br />
   <sub>✨ <i>"Seja Luz e Transmita Amor!"</i> ✨</sub>
 </p>
+
+<div align="center">
+
+| 💼 Cargo Alvo | 📍 Localização | ♿ Ação Afirmativa | ✉️ Contato Direto | 🔗 LinkedIn |
+| :---: | :---: | :---: | :---: | :---: |
+| **Desenvolvedor Python Sênior / AI Engineer** | Florianópolis, SC (Remoto Global) | **PcD Homologado** (CIDs F31.2, F90.0, 6C46) | [contato@q1digital.com.br](mailto:contato@q1digital.com.br) | [Perfil Oficial](https://linkedin.com/in/marcio-krefta-fontella-184a4b2b6) |
+
+</div>
 
 </div>
 
@@ -27,7 +36,7 @@
         <a href="https://github.com/q1-by-taco/pull-shark-quest">
           <img src="https://raw.githubusercontent.com/kreftamarcio/kreftamarcio/main/assets/achievements/pull-shark-gold.png" width="95px" alt="Pull Shark" /><br />
           <b>Pull Shark</b><br />
-          <sub>🦈 Gold Tier 4 / x4 (1.161 PRs Homologados)</sub>
+          <sub>🦈 Gold Tier 4 / x4 (2.460+ PRs Globais Homologados)</sub>
         </a>
       </td>
       <td align="center" width="20%">
