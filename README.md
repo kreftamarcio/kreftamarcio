@@ -102,7 +102,7 @@ Atuação técnica especializada em arquitetura de sistemas, engenharia de dados
 
 ---
 
-### 🧠 Perfil Neurodivergente: Vantagens Cognitivas na Engenharia de Software
+### 🧠 Perfil Neurodivergente: Vantagens Cognitivas na Arquitetura de Prompt
 
 A neurodivergência é vivenciada como um acelerador cognitivo em ambientes de desenvolvimento e arquitetura de software:
 
