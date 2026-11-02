@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Model Context Protocol](https://img.shields.io/badge/Protocol-MCP%20JSON--RPC%202.0-3178C6?style=for-the-badge&logo=json&logoColor=white)](https://modelcontextprotocol.io)
-[![Neurodivergent Pride](https://img.shields.io/badge/Neurodivergent-Proud%20%26%20Affirmative-7B2CBF?style=for-the-badge&logo=target&logoColor=white)](#)
+[![Neurodivergent](https://img.shields.io/badge/Neurodivergent-Affirmative%20Action-7B2CBF?style=for-the-badge&logo=target&logoColor=white)](#)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 [![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%2F%20Debian-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kreftamarcio/kreftamarcio/badge)](https://securityscorecards.dev/viewer/?repo=github.com/kreftamarcio/kreftamarcio)
@@ -102,7 +102,7 @@ Atuação técnica especializada em arquitetura de sistemas, engenharia de dados
 
 ---
 
-### 🧠 Neurodivergência com Orgulho: Vantagens Cognitivas na Engenharia
+### 🧠 Perfil Neurodivergente: Vantagens Cognitivas na Engenharia de Software
 
 A neurodivergência é vivenciada como um acelerador cognitivo em ambientes de desenvolvimento e arquitetura de software:
 
