@@ -21,7 +21,7 @@
 
 ## Sobre
 
-Sou Desenvolvedor Python Especialista e fundador da **[Q1 by TACO](https://github.com/q1-by-taco)**, iniciativa em estágio pré-seed criada em fevereiro de 2026. Meu foco é **arquitetura de prompt e de contexto** e **servidores MCP (Model Context Protocol)**, conectando LLMs a ferramentas, APIs e repositórios de forma organizada. Uso IA intensivamente no dia a dia, tanto em Python (automações, scripts e servidores MCP, a maior parte em repositórios privados e no ambiente local) quanto em aplicações web com TypeScript, Next.js e React.
+Sou Lead AI Engineer e Desenvolvedor Python Principal na **[Q1 by TACO](https://github.com/q1-by-taco)** (iniciativa de engenharia de IA e sistemas distribuídos). Meu foco é **arquitetura de contexto e servidores MCP (Model Context Protocol)**, conectando LLMs a ferramentas, APIs e repositórios com contratos determinísticos. Uso IA e engenharia de software no dia a dia, tanto em Python (automações, processamento analítico com DuckDB/Polars e servidores MCP) quanto em aplicações web full-stack com TypeScript, Next.js e React.
 
 Sou uma pessoa neurodivergente e me candidato a vagas afirmativas. Laudo médico disponível para processos seletivos.
 
@@ -55,5 +55,5 @@ DevOps: [Git, GitHub Actions, GitHub Apps, Conventional Commits, Vercel, Hosting
 
 ## Organizações
 
-* **[Q1 by TACO](https://github.com/q1-by-taco)**: desenvolvimento de software e IA aplicada, estágio pré-seed.
+* **[Q1 by TACO](https://github.com/q1-by-taco)**: engenharia de software e inteligência artificial aplicada.
 * **[TACO Assessoria de Comunicação](https://github.com/TACO-Assessoria-de-Comunicacao)**.
