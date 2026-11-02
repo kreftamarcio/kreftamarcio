@@ -1,7 +1,7 @@
 {
   "name": "kreftamarcio",
   "version": "1.0.0",
-  "description": "Marcio Krefta - GitHub Profile & AI Systems Hub",
+  "description": "Márcio Krefta Fontella - GitHub Profile & AI Systems Hub",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
