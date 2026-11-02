@@ -20,7 +20,7 @@
 
 | 💼 Cargo Alvo | 📍 Localização & Modalidade | 🧠 Perfil & Ação Afirmativa | ✉️ Contato Direto | 🔗 LinkedIn |
 | :---: | :---: | :---: | :---: | :---: |
-| **Desenvolvedor Python Especialista / AI & Data Architect** | Florianópolis, SC • **Remoto Global** (BRL / USD / EUR) | **Neurodivergente** (Ação Afirmativa & Inclusão • Laudo médico particular disponível) | [contato@q1digital.com.br](mailto:contato@q1digital.com.br) | [Perfil Oficial](https://linkedin.com/in/marcio-krefta-fontella-184a4b2b6) |
+| **Desenvolvedor Python Especialista / AI & Data Architect** | Florianópolis, SC • **Remoto Global** (BRL / USD / EUR) | **Neurodivergente** (Ação Afirmativa & Inclusão • Laudo médico particular disponível) | [kreftamarcio1@gmail.com](mailto:kreftamarcio1@gmail.com) | [Perfil Oficial](https://linkedin.com/in/marcio-krefta-fontella-184a4b2b6) |
 
 </div>
 
