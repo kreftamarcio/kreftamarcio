@@ -8,7 +8,7 @@
 [![Neurodivergente](https://img.shields.io/badge/Neurodivergente-Vaga%20Afirmativa-7B2CBF?style=for-the-badge)](#sobre)
 
 <p align="center">
-  <b>Desenvolvedor Python • Engenharia de Prompt & MCP • IA Aplicada • Neurodivergente</b><br />
+  <b>Desenvolvedor Python Especialista • Arquitetura de Prompt & MCP • IA Aplicada • Neurodivergente</b><br />
   <sub>Estudante de Análise e Desenvolvimento de Sistemas (Centro Universitário ETEP) • Florianópolis, SC • Remoto</sub><br />
   <sub>✨ <i>"Seja Luz e Transmita Amor!"</i> ✨</sub>
 </p>
@@ -21,7 +21,7 @@
 
 ## Sobre
 
-Sou desenvolvedor Python autodidata e fundador da **[Q1 by TACO](https://github.com/q1-by-taco)**, iniciativa em estágio pré-seed criada em fevereiro de 2026. Meu foco é **engenharia de prompt e de contexto** e **servidores MCP (Model Context Protocol)**, conectando LLMs a ferramentas, APIs e repositórios de forma organizada. Uso IA intensivamente no dia a dia, tanto em Python (automações, scripts e servidores MCP, a maior parte em repositórios privados e no ambiente local) quanto em aplicações web com TypeScript, Next.js e React.
+Sou Desenvolvedor Python Especialista e fundador da **[Q1 by TACO](https://github.com/q1-by-taco)**, iniciativa em estágio pré-seed criada em fevereiro de 2026. Meu foco é **arquitetura de prompt e de contexto** e **servidores MCP (Model Context Protocol)**, conectando LLMs a ferramentas, APIs e repositórios de forma organizada. Uso IA intensivamente no dia a dia, tanto em Python (automações, scripts e servidores MCP, a maior parte em repositórios privados e no ambiente local) quanto em aplicações web com TypeScript, Next.js e React.
 
 Sou uma pessoa neurodivergente e me candidato a vagas afirmativas. Laudo médico disponível para processos seletivos.
 
