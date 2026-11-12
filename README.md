@@ -8,7 +8,8 @@
 [![Neurodivergente](https://img.shields.io/badge/Neurodivergente-Vaga%20Afirmativa-7B2CBF?style=for-the-badge)](#sobre)
 
 <p align="center">
-  <b>Desenvolvedor Python • Engenharia de Prompt & MCP • IA Aplicada • Neurodivergente</b><br />
+  <b>Engenheiro de IA Aplicada (Python) • Engenharia de Contexto & MCP • Autodidata • Neurodivergente</b><br />
+  <sub>Diretor e especialista em IA na TACO Assessoria de Comunicação</sub><br />
   <sub>Estudante de Análise e Desenvolvimento de Sistemas (Centro Universitário ETEP) • Florianópolis, SC • Remoto ou híbrido</sub><br />
   <sub>✨ <i>"Seja Luz e Transmita Amor!"</i> ✨</sub>
 </p>
@@ -21,7 +22,9 @@
 
 ## Sobre
 
-Desenvolvo projetos próprios de software e IA e mantenho a organização **[Q1 by TACO](https://github.com/q1-by-taco)** no GitHub, onde publico projetos experimentais. Meu foco é **engenharia de prompt e de contexto e servidores MCP (Model Context Protocol)**, conectando LLMs a ferramentas, APIs e repositórios. Uso IA e engenharia de software no dia a dia, tanto em Python (automações, scripts, processamento de dados com DuckDB e servidores MCP) quanto em aplicações web com TypeScript, Next.js e React.
+Sou **diretor e especialista em Inteligência Artificial na [TACO Assessoria de Comunicação](https://tacoassessoria.com.br)**, onde conduzo a integração de tecnologia, dados e automação aos processos editoriais e de marketing institucional da consultoria.
+
+Em paralelo, desenvolvo projetos próprios de software e IA e mantenho a organização **[Q1 by TACO](https://github.com/q1-by-taco)** no GitHub, onde publico projetos experimentais. Meu foco é **engenharia de prompt e de contexto e servidores MCP (Model Context Protocol)**, conectando LLMs a ferramentas, APIs e repositórios. Sou autodidata em IA aplicada: uso IA e engenharia de software no dia a dia, tanto em Python (automações, scripts, processamento de dados com DuckDB e servidores MCP) quanto em aplicações web com TypeScript, Next.js e React.
 
 Sou uma pessoa neurodivergente e me candidato a vagas afirmativas. Laudo médico disponível para processos seletivos.
 
@@ -36,7 +39,7 @@ Sou uma pessoa neurodivergente e me candidato a vagas afirmativas. Laudo médico
 
 * **Q1 Imob**: plataforma web de dados para o mercado imobiliário (Next.js, React, TypeScript, PostgreSQL/Neon, Vercel AI SDK com Gemini e OpenAI), com requisitos de LGPD e das normas COFECI/CRECI.
 * **pr-guardiao**: GitHub App em TypeScript (Node 22, sem dependências em runtime) que valida títulos de PR no padrão Conventional Commits e bloqueia segredos vazados no diff.
-* **Skills hub**: acervo próprio de skills, prompts e configurações para agentes de IA e servidores MCP, em Python.
+* **Skills hub**: acervo próprio de skills, prompts e configurações para agentes de IA e servidores MCP, em Python, com roteamento e fallback entre Gemini, Groq e Cloudflare Workers AI.
 * **Sites e sistemas para pequenos negócios**: imobiliárias, agendamento para barbearia e clínica, captação de leads e site de evento com deploy automático via GitHub Actions.
 
 ---
